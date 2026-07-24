@@ -1,0 +1,55 @@
+name: Mise à jour briefing + Wiki
+
+on:
+  schedule:
+    # Tous les jours à 6h UTC (7h Paris hiver / 8h été)
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  briefing:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Générer le briefing
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_PROVIDER: gemini
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::warning::GEMINI_API_KEY absent — extraits RSS uniquement. Ajoutez le secret dans Settings → Secrets → Actions."
+            python generate.py --no-ai
+          else
+            python generate.py
+          fi
+
+      - name: Commit briefing dans le repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add briefings/
+          if git diff --staged --quiet; then
+            echo "Briefing inchangé"
+          else
+            git commit -m "briefing: $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      - name: Pousser vers le Wiki GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/sync_github_wiki.py --push \
+            --repo "${{ github.repository }}" \
+            --token "$GITHUB_TOKEN"

@@ -1,0 +1,47 @@
+# Catalogue central des flux RSS — modifiable par l'admin.
+# Chaque flux est rattaché à un ou plusieurs thèmes.
+
+themes:
+  - id: une
+    label: À la une
+    icon: "📰"
+  - id: politique
+    label: Politique
+    icon: "🏛️"
+  - id: local
+    label: Local (Charente)
+    icon: "📍"
+  - id: sport
+    label: Sport
+    icon: "⚽"
+  - id: culture
+    label: Culture
+    icon: "🎭"
+
+feeds:
+  - id: lemonde-une
+    name: Le Monde — À la une
+    url: https://www.lemonde.fr/rss/une.xml
+    themes: [une, politique]
+
+  - id: lemonde-politique
+    name: Le Monde — Politique
+    url: https://www.lemonde.fr/politique/rss_full.xml
+    themes: [politique]
+
+  - id: lemonde-sport
+    name: Le Monde — Sport
+    url: https://www.lemonde.fr/sport/rss_full.xml
+    themes: [sport]
+
+  - id: charente-libre
+    name: La Charente Libre
+    # Si le flux échoue, essayez une URL de rubrique ou désactivez temporairement
+    url: http://www.charentelibre.fr/rss.xml
+    themes: [local, une]
+
+# Nombre max d'articles récents par flux (évite les briefings trop longs)
+max_articles_per_feed: 5
+
+# Articles des dernières N heures uniquement
+max_age_hours: 48

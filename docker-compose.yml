@@ -1,0 +1,10 @@
+services:
+  actu-maison:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config:/app/config:ro
+      - ./briefings:/app/briefings
+      - ./.env:/app/.env:ro
+    restart: unless-stopped

@@ -1,0 +1,62 @@
+# Génération automatique du briefing (GitLab CI)
+# Planification : Paramètres → CI/CD → Schedules → ex. tous les matins à 7h
+
+stages:
+  - generate
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+generate-briefing:
+  stage: generate
+  image: python:3.12-slim
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+    - if: $CI_PIPELINE_SOURCE == "web"
+  before_script:
+    - pip install -r requirements.txt
+  script:
+    - python generate.py --no-ai
+    # Décommenter si clé API configurée dans CI/CD Variables :
+    # - python generate.py
+    - git config user.email "ci@actu-maison.local"
+    - git config user.name "Actu Maison CI"
+    - git add briefings/
+    - |
+      if git diff --staged --quiet; then
+        echo "Aucun changement dans le briefing"
+      else
+        git commit -m "briefing: mise à jour $(date -u +%Y-%m-%d)"
+        git push "https://oauth2:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" HEAD:${CI_COMMIT_REF_NAME}
+      fi
+  cache:
+    paths:
+      - .cache/pip
+
+pages:
+  stage: generate
+  image: alpine:latest
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+    - if: $CI_PIPELINE_SOURCE == "web"
+  script:
+    - mkdir -p public
+    - cp -r reader public/
+    - mkdir -p public/briefings
+    - cp briefings/latest.md public/briefings/latest.md
+    - echo 'redirect_to_reader' > public/index.html
+    - |
+      cat > public/index.html <<'HTML'
+      <!DOCTYPE html>
+      <html><head>
+        <meta http-equiv="refresh" content="0;url=reader/">
+        <title>Actu Maison</title>
+      </head><body>
+        <a href="reader/">Ouvrir le lecteur</a>
+      </body></html>
+      HTML
+  artifacts:
+    paths:
+      - public
+  needs:
+    - generate-briefing
