@@ -1,6 +1,6 @@
 ---
 date: 2026-07-24
-generated_at: 2026-07-24T11:44:13.614127+00:00
+generated_at: 2026-07-24T14:11:14.800385+00:00
 themes: [une, politique, local, sport, culture]
 ---
 
@@ -9,6 +9,46 @@ themes: [une, politique, local, sport, culture]
 _Résumés d'actualité par thème — généré automatiquement._
 
 ## 📰 À la une
+
+### Incendie en Gironde : comment 35.000 personnes ont été évacuées du Cap-Ferret en quelques heures
+
+**Source :** La Charente Libre · **Publié :** 24/07/2026 14:04 · [Lire l'article](https://www.charentelibre.fr/societe/incendie/incendie-en-gironde-comment-35-000-personnes-ont-ete-evacuees-du-cap-ferret-en-quelques-heures-30049551.php)
+
+Face à la progression fulgurante de l’incendie en Gironde, les autorités ont déclenché un dispositif d’évacuation exceptionnel du Cap-Ferret. Préparé après les mégafeux de 2022, ce plan prévoyait chaque
+
+---
+
+### La Rochefoucauld-en-Angoumois : de la musique à l’hôpital avant un concert à l’église
+
+**Source :** La Charente Libre · **Publié :** 24/07/2026 13:41 · [Lire l'article](https://www.charentelibre.fr/charente/la-rochefoucauld/la-rochefoucauld-en-angoumois-de-la-musique-a-l-hopital-avant-un-concert-a-l-eglise-30046349.php)
+
+De jeunes musiciens rencontreront lundi 27 juillet les résidents de l’hôpital et de la MAPA avant un concert gratuit en soirée à l’église Notre-Dame-de l’Assomption. L’hôpital souhaite pérenniser l’événement.
+
+---
+
+### Le premier libraire indépendant de France va supprimer 84 postes et fermer plusieurs magasins
+
+**Source :** La Charente Libre · **Publié :** 24/07/2026 13:07 · [Lire l'article](https://www.charentelibre.fr/economie/social/le-premier-libraire-independant-de-france-va-supprimer-84-postes-et-fermer-plusieurs-magasins-30048771.php)
+
+En redressement judiciaire depuis le mois d’avril, Gibert a présenté un vaste plan de restructuration. L’enseigne prévoit de supprimer 84 postes, de fermer plusieurs magasins et de recentrer son modèle
+
+---
+
+### Départs en vacances : Bison futé ne recommande qu’une seule journée pour prendre la route ce week-end
+
+**Source :** La Charente Libre · **Publié :** 24/07/2026 12:50 · [Lire l'article](https://www.charentelibre.fr/societe/circulation-1/departs-en-vacances-bison-fute-ne-recommande-qu-une-seule-journee-pour-prendre-la-route-ce-week-end-30048685.php)
+
+C’est le pire cauchemar des vacanciers sur le départ. Entre la fin juillet, des autoroutes saturées et des départs massifs, Bison futé hisse le drapeau rouge sur une grande partie du pays ce vendredi,
+
+---
+
+### « Nous montrer sous un autre jour » : à Montbron, l’amicale des sapeurs pompiers volontaires organise ce samedi sa soirée bandas
+
+**Source :** La Charente Libre · **Publié :** 24/07/2026 12:41 · [Lire l'article](https://www.charentelibre.fr/charente/montbron/nous-montrer-sous-un-autre-jour-a-montbron-l-amicale-des-sapeurs-pompiers-volontaires-organise-ce-samedi-sa-soiree-bandas-30038413.php)
+
+A Montbron, l’amicale des sapeurs-pompiers volontaires organise ce samedi soir la 2e édition de sa soirée bandas. L’occasion de passer un bon moment et de rencontrer ces héros du quotidien.
+
+---
 
 ### Concert interrompu de Barbara Butch : pour « l’insoumis » Bally Bagayoko, la DJ « a raison » de porter plainte
 
@@ -51,6 +91,22 @@ La préfecture a ordonné ce matin « l’évacuation progressive de l’ensembl
 ---
 
 ## 🏛️ Politique
+
+### Pierre Lefébure, politiste : « Le suractivisme d’un candidat à la présidentielle est risqué, tout ce qu’il dit peut lui être renvoyé au visage plus tard »
+
+**Source :** Le Monde — Politique · **Publié :** 24/07/2026 12:59 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/pierre-lefebure-politiste-le-suractivisme-d-un-candidat-a-la-presidentielle-est-risque-tout-ce-qu-il-dit-peut-lui-etre-renvoye-au-visage-plus-tard_6731504_823448.html)
+
+L’été 2026 s’annonce moins riche en campagnes politiques que d’autres étés précédant le scrutin, mais il promet de donner à voir tout l’éventail des usages en communication et déambulation publique, observe, dans un entretien au « Monde », le maître de conférences en science politique.
+
+---
+
+### Présidentielle 2027 : l’écologiste Marine Tondelier poursuit sa campagne malgré la pression de l’union
+
+**Source :** Le Monde — Politique · **Publié :** 24/07/2026 12:00 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/presidentielle-2027-l-ecologiste-marine-tondelier-poursuit-sa-campagne-malgre-la-pression-de-l-union_6731501_823448.html)
+
+Sillonant le pays à bord d’un van électrique, la secrétaire nationale des Ecologistes continue de porter ses idées pendant que les appels à l’union continuent de diviser le parti.
+
+---
 
 ### Loi d’urgence agricole : le Conseil constitutionnel saisi par des députés « insoumis » et écologistes
 
@@ -100,23 +156,73 @@ La préfecture a ordonné ce matin « l’évacuation progressive de l’ensembl
 
 ---
 
-### Présidentielle 2027 : pendant l’été, une période de précampagne difficile à ignorer pour les candidats
+## 📍 Local (Charente)
 
-**Source :** Le Monde — Politique · **Publié :** 24/07/2026 03:30 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/presidentielle-2027-pendant-l-ete-une-periode-de-precampagne-difficile-a-ignorer-pour-les-candidats_6731416_823448.html)
+### Incendie en Gironde : comment 35.000 personnes ont été évacuées du Cap-Ferret en quelques heures
 
-A quelques mois de l’élection, la période estivale est un moment privilégié pour certains candidats de se montrer sur le terrain et pour les partis de consolider leur base.
+**Source :** La Charente Libre · **Publié :** 24/07/2026 14:04 · [Lire l'article](https://www.charentelibre.fr/societe/incendie/incendie-en-gironde-comment-35-000-personnes-ont-ete-evacuees-du-cap-ferret-en-quelques-heures-30049551.php)
+
+Face à la progression fulgurante de l’incendie en Gironde, les autorités ont déclenché un dispositif d’évacuation exceptionnel du Cap-Ferret. Préparé après les mégafeux de 2022, ce plan prévoyait chaque
 
 ---
 
-### Concert interrompu de Barbara Butch : l’embarras de la direction de LFI face à une action locale
+### La Rochefoucauld-en-Angoumois : de la musique à l’hôpital avant un concert à l’église
 
-**Source :** Le Monde — Politique · **Publié :** 24/07/2026 03:15 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/concert-interrompu-de-barbara-butch-l-embarras-de-la-direction-de-lfi-face-a-une-action-locale_6731410_823448.html)
+**Source :** La Charente Libre · **Publié :** 24/07/2026 13:41 · [Lire l'article](https://www.charentelibre.fr/charente/la-rochefoucauld/la-rochefoucauld-en-angoumois-de-la-musique-a-l-hopital-avant-un-concert-a-l-eglise-30046349.php)
 
-Le conseiller d’opposition « insoumis » de Grenoble Allan Brunon est à l’origine de la perturbation d’un concert de la DJ française samedi. Plutôt que de reconnaître un éventuel faux pas, le mouvement s’appuie sur une défense parfois hasardeuse.
+De jeunes musiciens rencontreront lundi 27 juillet les résidents de l’hôpital et de la MAPA avant un concert gratuit en soirée à l’église Notre-Dame-de l’Assomption. L’hôpital souhaite pérenniser l’événement.
+
+---
+
+### Le premier libraire indépendant de France va supprimer 84 postes et fermer plusieurs magasins
+
+**Source :** La Charente Libre · **Publié :** 24/07/2026 13:07 · [Lire l'article](https://www.charentelibre.fr/economie/social/le-premier-libraire-independant-de-france-va-supprimer-84-postes-et-fermer-plusieurs-magasins-30048771.php)
+
+En redressement judiciaire depuis le mois d’avril, Gibert a présenté un vaste plan de restructuration. L’enseigne prévoit de supprimer 84 postes, de fermer plusieurs magasins et de recentrer son modèle
+
+---
+
+### Départs en vacances : Bison futé ne recommande qu’une seule journée pour prendre la route ce week-end
+
+**Source :** La Charente Libre · **Publié :** 24/07/2026 12:50 · [Lire l'article](https://www.charentelibre.fr/societe/circulation-1/departs-en-vacances-bison-fute-ne-recommande-qu-une-seule-journee-pour-prendre-la-route-ce-week-end-30048685.php)
+
+C’est le pire cauchemar des vacanciers sur le départ. Entre la fin juillet, des autoroutes saturées et des départs massifs, Bison futé hisse le drapeau rouge sur une grande partie du pays ce vendredi,
+
+---
+
+### « Nous montrer sous un autre jour » : à Montbron, l’amicale des sapeurs pompiers volontaires organise ce samedi sa soirée bandas
+
+**Source :** La Charente Libre · **Publié :** 24/07/2026 12:41 · [Lire l'article](https://www.charentelibre.fr/charente/montbron/nous-montrer-sous-un-autre-jour-a-montbron-l-amicale-des-sapeurs-pompiers-volontaires-organise-ce-samedi-sa-soiree-bandas-30038413.php)
+
+A Montbron, l’amicale des sapeurs-pompiers volontaires organise ce samedi soir la 2e édition de sa soirée bandas. L’occasion de passer un bon moment et de rencontrer ces héros du quotidien.
 
 ---
 
 ## ⚽ Sport
+
+### Mark van Bommel nommé à la tête de la sélection masculine belge de football, après Rudi Garcia
+
+**Source :** Le Monde — Sport · **Publié :** 24/07/2026 13:40 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/mark-van-bommel-nomme-a-la-tete-de-la-selection-masculine-belge-de-football-apres-rudi-garcia_6731509_3242.html)
+
+L’ancien international néerlandais de 49 ans a été choisi pour prendre le poste de sélectionneur des Diables rouges à la suite du Français, dont la non-prolongation du contrat en dépit des objectifs remplis a surpris une partie des observateurs.
+
+---
+
+### Eugène Gréau, le coureur du Tour de France emporté dans la nuit et le brouillard de la déportation
+
+**Source :** Le Monde — Sport · **Publié :** 24/07/2026 12:00 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/eugene-greau-le-coureur-du-tour-de-france-emporte-dans-la-nuit-et-le-brouillard-de-la-deportation_6731500_3242.html)
+
+Commencée en héros avec un glorieux coup de pédale qui l’amène à la 47ᵉ place de la Grande Boucle 1929, la vie du champion se termine en 1943 en martyr de la Résistance, après avoir été déporté « Nacht und Nebel » à la prison de Sonnenburg.
+
+---
+
+### EN DIRECT, Tour de France : Valentin Paret-Peintre virtuellement maillot à pois, le peloton accuse près de quatre minutes de retard avant le sprint intermédiaire
+
+**Source :** Le Monde — Sport · **Publié :** 24/07/2026 11:55 · [Lire l'article](https://www.lemonde.fr/sport/live/2026/07/24/en-direct-tour-de-france-suivez-la-dix-neuvieme-etape-entre-gap-et-l-alpe-d-huez_6731498_3242.html)
+
+A deux jours de l’arrivée, les coureurs de la Grande Boucle vont, vendredi, s’attaquer à une nouvelle étape de montagne, arrivant à l’Alpe d’Huez.
+
+---
 
 ### Jürgen Klopp officiellement nommé sélectionneur de l’équipe d’Allemagne de football
 
@@ -131,29 +237,5 @@ Le technicien de 59 ans a été intronisé, vendredi, à la tête de la Mannscha
 **Source :** Le Monde — Sport · **Publié :** 24/07/2026 07:30 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/tour-de-france-2026-une-double-dose-d-alpe-d-huez-pour-le-peloton_6731468_3242.html)
 
 Les coureurs devront affronter les vingt-et-un lacets du col vendredi, dans le final de la 19ᵉ étape… avant de terminer au même endroit le lendemain, lors d’une journée où ils devront escalader trois cols classés hors catégorie.
-
----
-
-### Tour de France 2026 : le parcours de la dix-neuvième étape (Gap - l’Alpe-d’Huez)
-
-**Source :** Le Monde — Sport · **Publié :** 24/07/2026 06:00 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/tour-de-france-2026-le-parcours-de-la-dix-neuvieme-etape-gap-l-alpe-d-huez_6731462_3242.html)
-
-A deux jours de l’arrivée à Paris, les coureurs se lancent dans une étape courte, mais montagneuse, dont l’ascension finale vers la station iséroise se fera par ses 21 virages mythiques.
-
----
-
-### Tour de France 2026 : une histoire de maillots, de baroudeurs, mais pas encore de favoris
-
-**Source :** Le Monde — Sport · **Publié :** 23/07/2026 17:56 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/23/tour-de-france-2026-une-histoire-de-maillots-de-baroudeurs-mais-pas-encore-de-favoris_6731135_3242.html)
-
-L’Equatorien Richard Carapaz a remporté, jeudi en solitaire, à Orcières-Merlette, une 18ᵉ étape marquée par une bataille pour les tuniques distinctives, à l’exception de la jaune de leader au général, propriété de Tadej Pogacar.
-
----
-
-### Tour de France : Richard Carapaz s’impose en solitaire à Orcières-Merlette et renoue avec le succès sur la Grande Boucle
-
-**Source :** Le Monde — Sport · **Publié :** 23/07/2026 10:30 · [Lire l'article](https://www.lemonde.fr/sport/live/2026/07/23/en-direct-tour-de-france-suivez-la-dix-huitieme-etape-entre-voiron-et-orcieres-merlette_6730674_3242.html)
-
-Le coureur équatorien, de nouveau à l’attaque pour la première étape du triptyque alpestre de l’édition 2026, a fait craquer Valentin Paret-Peintre dans l’ascension vers Orcières-Merlette (Hautes-Alpes), jeudi, lors de la dix-huitième étape du Tour de France. Tadej Pogacar conserve son maillot jaune.
 
 ---
