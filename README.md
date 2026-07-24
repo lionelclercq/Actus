@@ -1,63 +1,29 @@
 # Actus
 
-Briefing d'actualité familial — flux RSS centralisés, **résumés IA complets**, publiés sur le **Wiki GitHub**.
+Briefing d'actualité — résumés IA, publiés automatiquement chaque matin.
 
-## Lire vos actualités (sans identifiant)
+## Lire sans identifiant
 
-Repo public → lecture libre, aucun compte requis.
+| Interface | URL |
+|-----------|-----|
+| **Lecteur web (recommandé)** | **https://lionelclercq.github.io/Actus/reader/** |
+| Pages markdown par thème | https://github.com/lionelclercq/Actus/tree/main/wiki |
+| Wiki GitHub | https://github.com/lionelclercq/Actus/wiki |
 
-| Quoi | URL |
-|------|-----|
-| **Wiki (lecture)** | **https://github.com/lionelclercq/Actus/wiki** |
-| Page d'accueil wiki | https://github.com/lionelclercq/Actus/wiki/Home |
-| Code source | https://github.com/lionelclercq/Actus |
+## Première utilisation du Wiki
 
-Sur Android : ouvrez l'URL wiki dans Chrome, ou utilisez **GitJournal** en clonant `https://github.com/lionelclercq/Actus.wiki.git`.
+Si le wiki est vide, créez **une fois** une page d'accueil :  
+https://github.com/lionelclercq/Actus/wiki/_new → titre `Home` → Save.
 
-## Mise à jour automatique
+Puis relancez [le workflow Actions](https://github.com/lionelclercq/Actus/actions/workflows/briefing.yml).
 
-GitHub Actions génère le briefing **chaque matin à 7h** (Paris) et met à jour le wiki.
+## Résumés IA (Gemini)
 
-**Déclencher à la main** : [Actions → Mise à jour briefing + Wiki → Run workflow](https://github.com/lionelclercq/Actus/actions/workflows/briefing.yml)
+Secret requis dans **Settings → Secrets and variables → Actions** :
 
-## Configuration requise (une fois) — résumés IA
+- Nom exact : `GEMINI_API_KEY`
+- Valeur : clé https://aistudio.google.com/apikey
 
-Pour des résumés complets (8–12 phrases par article), ajoutez votre clé Gemini :
+## Mise à jour manuelle
 
-1. https://github.com/lionelclercq/Actus/settings/secrets/actions
-2. **New repository secret**
-3. Nom : `GEMINI_API_KEY` — Valeur : votre clé API Google AI
-4. Relancez le workflow Actions
-
-Sans ce secret, seuls les extraits RSS (souvent tronqués) sont utilisés.
-
-## Wiki
-
-Le wiki est **déjà activé** sur ce repo. Rien à installer côté serveur.
-
-Structure générée automatiquement :
-
-- `Home` — sommaire avec liens vers les thèmes
-- Une page par thème (Politique, Local, Sport…)
-- `Briefing-AAAA-MM-JJ` — archive du jour
-
-## Admin : modifier les flux
-
-Éditez `config/feeds.yaml` puis relancez le workflow Actions.
-
-## Déploiement initial (depuis SPIKE)
-
-```bash
-curl -sL https://raw.githubusercontent.com/lionelclercq/SPIKE/cursor/actus-deploy-974a/actu-maison/deploy-to-actus.sh | bash
-```
-
-## Développement local
-
-```bash
-git clone https://github.com/lionelclercq/Actus.git
-cd Actus
-cp .env.example .env   # GEMINI_API_KEY=...
-pip install -r requirements.txt
-python generate.py
-python serve.py        # http://localhost:8080/reader/
-```
+https://github.com/lionelclercq/Actus/actions/workflows/briefing.yml → **Run workflow**

@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 .wiki/
+.wiki-staging/
 _vendor/
 .venv/
 venv/

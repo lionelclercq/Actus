@@ -118,17 +118,35 @@ def sync_wiki(wiki_dir: Path, briefing_path: Path = BRIEFING) -> list[Path]:
 
 def git_push_wiki(wiki_dir: Path, repo: str, token: str) -> None:
     wiki_url = f"https://x-access-token:{token}@github.com/{repo}.wiki.git"
+    export_dir = ROOT / "wiki"
+    staging = ROOT / ".wiki-staging"
 
-    if not (wiki_dir / ".git").exists():
-        if wiki_dir.exists() and any(wiki_dir.iterdir()):
-            for item in wiki_dir.iterdir():
-                if item.name != ".git":
-                    item.unlink() if item.is_file() else shutil.rmtree(item)
-        subprocess.run(["git", "clone", wiki_url, str(wiki_dir)], check=True)
-    else:
-        subprocess.run(["git", "-C", str(wiki_dir), "pull", "--rebase"], check=True)
+    written = sync_wiki(staging)
+    # Fallback : copie lisible dans le repo principal (toujours accessible)
+    export_dir.mkdir(exist_ok=True)
+    for f in written:
+        shutil.copy2(f, export_dir / f.name)
+    print(f"✅ Export wiki → {export_dir}/ ({len(written)} pages)")
 
-    sync_wiki(wiki_dir)
+    if wiki_dir.exists():
+        shutil.rmtree(wiki_dir, ignore_errors=True)
+
+    result = subprocess.run(
+        ["git", "clone", wiki_url, str(wiki_dir)],
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode != 0:
+        print(
+            "⚠ Wiki git non initialisé. Ouvrez une fois :\n"
+            f"  https://github.com/{repo}/wiki/_new\n"
+            "  (créez une page vide « Home »), puis relancez le workflow.\n"
+            "  Les pages sont dans wiki/ et sur GitHub Pages en attendant."
+        )
+        return
+
+    for f in written:
+        shutil.copy2(f, wiki_dir / f.name)
 
     subprocess.run(["git", "-C", str(wiki_dir), "add", "-A"], check=True)
     status = subprocess.run(
@@ -138,10 +156,18 @@ def git_push_wiki(wiki_dir: Path, repo: str, token: str) -> None:
         check=True,
     )
     if not status.stdout.strip():
-        print("ℹ Wiki déjà à jour")
+        print("ℹ Wiki git déjà à jour")
         return
 
     msg = f"briefing: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')} UTC"
+    subprocess.run(
+        ["git", "-C", str(wiki_dir), "config", "user.email", "github-actions[bot]@users.noreply.github.com"],
+        check=True,
+    )
+    subprocess.run(
+        ["git", "-C", str(wiki_dir), "config", "user.name", "github-actions[bot]"],
+        check=True,
+    )
     subprocess.run(["git", "-C", str(wiki_dir), "commit", "-m", msg], check=True)
     subprocess.run(["git", "-C", str(wiki_dir), "push"], check=True)
     print(f"✅ Wiki poussé : https://github.com/{repo}/wiki")
@@ -159,6 +185,13 @@ def main() -> None:
     print(f"✅ {len(written)} page(s) wiki écrite(s) dans {args.wiki_dir}")
     for p in written:
         print(f"   • {p.name}")
+
+    # Toujours exporter dans wiki/ du repo
+    export_dir = ROOT / "wiki"
+    export_dir.mkdir(exist_ok=True)
+    for p in written:
+        shutil.copy2(p, export_dir / p.name)
+    print(f"✅ Export → {export_dir}/")
 
     if args.push:
         import os
