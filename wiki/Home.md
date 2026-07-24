@@ -6,6 +6,7 @@ _Dernière mise à jour : 2026-07-24_
 
 - [[📰-À-la-une|📰 À la une]]
 - [[🏛️-Politique|🏛️ Politique]]
+- [[📍-Local-(Charente)|📍 Local (Charente)]]
 - [[⚽-Sport|⚽ Sport]]
 
 ---
