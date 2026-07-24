@@ -12,7 +12,7 @@ L’été 2026 s’annonce moins riche en campagnes politiques que d’autres é
 
 **Source :** Le Monde — Politique · **Publié :** 24/07/2026 12:00 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/presidentielle-2027-l-ecologiste-marine-tondelier-poursuit-sa-campagne-malgre-la-pression-de-l-union_6731501_823448.html)
 
-Sillonant le pays à bord d’un van électrique, la secrétaire nationale des Ecologistes continue de porter ses idées pendant que les appels à l’union continuent de diviser le parti.
+Sillonnant le pays à bord d’un van électrique, la secrétaire nationale des Ecologistes continue de porter ses idées pendant que les appels à l’union continuent de diviser le parti.
 
 ---
 
