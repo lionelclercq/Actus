@@ -21,12 +21,41 @@ class Article:
     link: str
     published: datetime | None
     excerpt: str
+    image_url: str = ""
+    full_text: str = ""  # rempli par l'enrichisseur local (cookies)
 
 
 def _strip_html(text: str) -> str:
     text = unescape(text or "")
     text = re.sub(r"<[^>]+>", " ", text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+def _extract_image(entry) -> str:
+    """Image depuis media RSS ou balise img du résumé."""
+    if hasattr(entry, "media_thumbnail") and entry.media_thumbnail:
+        url = entry.media_thumbnail[0].get("url", "")
+        if url:
+            return url
+
+    if hasattr(entry, "media_content") and entry.media_content:
+        for media in entry.media_content:
+            if media.get("medium") == "image" or media.get("type", "").startswith("image/"):
+                url = media.get("url", "")
+                if url:
+                    return url
+
+    if hasattr(entry, "enclosures") and entry.enclosures:
+        for enc in entry.enclosures:
+            if enc.get("type", "").startswith("image/"):
+                return enc.get("href", "") or enc.get("url", "")
+
+    summary = entry.get("summary") or entry.get("description") or ""
+    match = re.search(r'<img[^>]+src=["\']([^"\']+)["\']', summary, re.I)
+    if match:
+        return unescape(match.group(1))
+
+    return ""
 
 
 def _parse_date(entry) -> datetime | None:
@@ -59,11 +88,11 @@ def fetch_articles(config: AppConfig) -> list[Article]:
             if published and published < cutoff:
                 continue
 
-            summary = _strip_html(
-                entry.get("summary") or entry.get("description") or ""
-            )
+            raw_summary = entry.get("summary") or entry.get("description") or ""
+            summary = _strip_html(raw_summary)
             title = _strip_html(entry.get("title", "Sans titre"))
             link = entry.get("link", "")
+            image_url = _extract_image(entry)
 
             if not link:
                 continue
@@ -76,7 +105,8 @@ def fetch_articles(config: AppConfig) -> list[Article]:
                     title=title,
                     link=link,
                     published=published,
-                    excerpt=summary[:800] if summary else "",
+                    excerpt=summary[:2000] if summary else "",
+                    image_url=image_url,
                 )
             )
             count += 1

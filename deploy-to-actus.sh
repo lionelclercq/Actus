@@ -1,47 +1,59 @@
 #!/usr/bin/env bash
-# Déploie Actu Maison vers https://github.com/lionelclercq/Actus
-# À lancer UNE FOIS depuis votre PC (avec droits push sur Actus).
+# Déploie Actus vers https://github.com/lionelclercq/Actus et publie l'APK.
+# Usage : GH_TOKEN=ghp_votre_token ./deploy-to-actus.sh
 set -euo pipefail
 
-ACTUS_REPO="${1:-https://github.com/lionelclercq/Actus.git}"
-SPIKE_BRANCH="cursor/actus-deploy-974a"
-SPIKE_TARBALL="https://github.com/lionelclercq/SPIKE/archive/refs/heads/${SPIKE_BRANCH}.tar.gz"
+ACTUS_OWNER="${ACTUS_OWNER:-lionelclercq}"
+ACTUS_NAME="${ACTUS_NAME:-Actus}"
+TAG="actus-sync-v1.1.1"
+ROOT="$(cd "$(dirname "$0")" && pwd)"
 WORKDIR="${TMPDIR:-/tmp}/actus-deploy-$$"
 
-echo "→ Téléchargement du code depuis SPIKE (${SPIKE_BRANCH})…"
-mkdir -p "$WORKDIR/src" "$WORKDIR/dst"
-curl -fsSL "$SPIKE_TARBALL" | tar xz -C "$WORKDIR/src" --strip-components=2 "SPIKE-${SPIKE_BRANCH}/actu-maison"
+if [[ -z "${GH_TOKEN:-}" ]]; then
+  echo "❌ GH_TOKEN requis."
+  echo "   GH_TOKEN=ghp_... ./deploy-to-actus.sh"
+  exit 1
+fi
+export GH_TOKEN
+
+ACTUS_REPO_URL="https://x-access-token:${GH_TOKEN}@github.com/${ACTUS_OWNER}/${ACTUS_NAME}.git"
 
 echo "→ Clone Actus…"
-git clone "$ACTUS_REPO" "$WORKDIR/dst"
-cd "$WORKDIR/dst"
+git clone "$ACTUS_REPO_URL" "$WORKDIR"
+cd "$WORKDIR"
+git remote set-url origin "$ACTUS_REPO_URL"
 
-shopt -s dotglob
-cp -a "$WORKDIR/src"/* .
+echo "→ Copie du projet (sans _vendor, .venv, build)…"
+shopt -s dotglob nullglob
+for item in "$ROOT"/*; do
+  base="$(basename "$item")"
+  case "$base" in
+    _vendor|.venv|actus-push.bundle) continue ;;
+  esac
+  cp -a "$item" .
+done
+find . -type d -name __pycache__ -exec rm -rf {} + 2>/dev/null || true
+rm -rf android/app/build android/.gradle 2>/dev/null || true
 
+echo "→ Commit…"
 git add -A
-if git diff --staged --quiet; then
-  echo "Rien à committer (déjà à jour ?)"
-else
-  git commit -m "feat: briefing RSS + wiki + résumés IA Gemini"
-  git push origin main
-  echo "✅ Poussé sur $ACTUS_REPO"
+git diff --staged --quiet || git commit -m "feat: Actus Sync APK v1.1.1 — correctif crash synchronisation"
+
+echo "→ Push main…"
+git push origin main
+
+APK="releases/actus-sync-v1.1.1.apk"
+if [[ -f "$APK" ]]; then
+  echo "→ Publication Release…"
+  gh release view "$TAG" --repo "${ACTUS_OWNER}/${ACTUS_NAME}" >/dev/null 2>&1 && \
+    gh release delete "$TAG" --repo "${ACTUS_OWNER}/${ACTUS_NAME}" --yes || true
+  gh release create "$TAG" "$APK" \
+    --repo "${ACTUS_OWNER}/${ACTUS_NAME}" \
+    --title "Actus Sync v1.1.1" \
+    --notes "Correctif crash à la synchronisation (Android 14+, notifications). Le Monde + Charente Libre + Gemini + Wiki."
+  echo ""
+  echo "✅ Lien de téléchargement :"
+  echo "   https://github.com/${ACTUS_OWNER}/${ACTUS_NAME}/releases/tag/$TAG"
 fi
 
-echo ""
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "  PROCHAINES ÉTAPES (2 min)"
-echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo ""
-echo "1. Clé Gemini (résumés complets 8-12 phrases) :"
-echo "   https://github.com/lionelclercq/Actus/settings/secrets/actions"
-echo "   → New secret : GEMINI_API_KEY = votre clé Google AI"
-echo ""
-echo "2. Lancer la génération :"
-echo "   https://github.com/lionelclercq/Actus/actions/workflows/briefing.yml"
-echo "   → Run workflow"
-echo ""
-echo "3. Lire vos actus (SANS compte, SANS identifiant) :"
-echo "   https://github.com/lionelclercq/Actus/wiki"
-echo ""
 rm -rf "$WORKDIR"

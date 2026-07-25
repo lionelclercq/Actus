@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.ActusSync" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/actus_primary</item>
+        <item name="colorPrimaryContainer">@color/actus_primary_container</item>
+    </style>
+</resources>

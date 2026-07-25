@@ -1,29 +1,104 @@
 # Actus
 
-Briefing d'actualité — résumés IA, publiés automatiquement chaque matin.
+**Briefing d'actualité personnel et familial** — agrégation RSS, résumés IA (Gemini), publication sur [GitHub Wiki](https://github.com/lionelclercq/Actus/wiki).
 
-## Lire sans identifiant
+Sans publicité. Lecture libre sans compte. Trois modes : **cloud** (GitHub Actions), **Android** (APK Actus Sync), **local** (Python).
 
-| Interface | URL |
-|-----------|-----|
-| **Lecteur web (recommandé)** | **https://lionelclercq.github.io/Actus/reader/** |
-| Pages markdown par thème | https://github.com/lionelclercq/Actus/tree/main/wiki |
-| Wiki GitHub | https://github.com/lionelclercq/Actus/wiki |
+---
 
-## Première utilisation du Wiki
+## Lire vos actualités
 
-Si le wiki est vide, créez **une fois** une page d'accueil :  
-https://github.com/lionelclercq/Actus/wiki/_new → titre `Home` → Save.
+| Interface | URL | Compte requis |
+|-----------|-----|---------------|
+| **Wiki (recommandé)** | https://github.com/lionelclercq/Actus/wiki | Non |
+| Dossier `wiki/` | https://github.com/lionelclercq/Actus/tree/main/wiki | Non |
+| Lecteur web local | `http://localhost:8080/reader/` | Non |
 
-Puis relancez [le workflow Actions](https://github.com/lionelclercq/Actus/actions/workflows/briefing.yml).
+---
 
-## Résumés IA (Gemini)
+## Démarrage rapide
 
-Secret requis dans **Settings → Secrets and variables → Actions** :
+### Mode cloud (GitHub Actions — automatique)
 
-- Nom exact : `GEMINI_API_KEY`
-- Valeur : clé https://aistudio.google.com/apikey
+1. Secret `GEMINI_API_KEY` dans [Settings → Secrets](https://github.com/lionelclercq/Actus/settings/secrets/actions)
+2. [Lancer le workflow](https://github.com/lionelclercq/Actus/actions/workflows/briefing.yml) ou attendre le cron (7h Paris)
 
-## Mise à jour manuelle
+### Mode Android (APK Actus Sync)
 
-https://github.com/lionelclercq/Actus/actions/workflows/briefing.yml → **Run workflow**
+**Télécharger l’APK** (sans ordinateur) :
+
+👉 **https://github.com/lionelclercq/SPIKE/releases/tag/actus-sync-v1.1.0**
+
+Appuyez sur `actus-sync-v1.1.0.apk` dans la page Release. Voir [releases/README.md](releases/README.md).
+
+1. Installer l’APK sur le téléphone
+2. Renseigner clé **Gemini** + token **GitHub** dans l’app
+3. Se connecter à **Le Monde** et **Charente Libre** (abonnements)
+4. Appuyer sur **Synchroniser maintenant**
+
+→ Guide complet : [docs/ANDROID.md](docs/ANDROID.md)
+
+---
+
+## Documentation
+
+**Index complet : [docs/INDEX.md](docs/INDEX.md)**
+
+| Document | Description |
+|----------|-------------|
+| [INDEX.md](docs/INDEX.md) | Sommaire de la documentation |
+| [ANDROID.md](docs/ANDROID.md) | Application Android (APK sync → wiki) |
+| [ARCHITECTURE.md](docs/ARCHITECTURE.md) | Architecture et flux de données |
+| [INSTALLATION.md](docs/INSTALLATION.md) | Installation (cloud, PC, Android) |
+| [CONFIGURATION.md](docs/CONFIGURATION.md) | Fichiers de config et secrets |
+| [WIKI.md](docs/WIKI.md) | Structure et lecture du wiki |
+| [DEVELOPMENT.md](docs/DEVELOPMENT.md) | Développement et contribution |
+| [TROUBLESHOOTING.md](docs/TROUBLESHOOTING.md) | Dépannage |
+| [SECURITY.md](docs/SECURITY.md) | Sécurité et bonnes pratiques |
+
+---
+
+## Structure du projet
+
+```
+Actus/
+├── android/               # APK Actus Sync (Kotlin)
+├── generate.py            # Génération briefing (cloud / local)
+├── config/
+│   ├── feeds.yaml         # Flux RSS mode cloud (thèmes fixes)
+│   └── sources.yaml       # Tous les flux (Le Monde + CL)
+├── src/                   # Modules Python
+├── scripts/
+│   └── sync_github_wiki.py
+├── reader/                # Lecteur web local
+├── briefings/             # Markdown générés
+├── wiki/                  # Export wiki (miroir)
+├── docs/                  # Documentation
+└── .github/workflows/     # CI GitHub Actions
+```
+
+---
+
+## Modes comparés
+
+| | Cloud (Actions) | Android (APK) | Local (Python) |
+|--|-----------------|-----------------|----------------|
+| **Où** | GitHub | Téléphone | PC |
+| **Identifiants** | Secrets GitHub | App (chiffré) | `~/.actus/credentials.yaml` |
+| **Sources** | `feeds.yaml` | Le Monde + CL | `sources.yaml` |
+| **Thèmes** | Fixes | Auto (Gemini) | Auto (Gemini) |
+| **Automatisation** | Cron quotidien | Manuel (sync) | Script |
+
+---
+
+## Prérequis
+
+- Clé API [Google Gemini](https://aistudio.google.com/apikey)
+- Token GitHub (`repo`) pour le push wiki (Android ou mobile)
+- Python 3.10+ (modes cloud/local uniquement)
+
+---
+
+## Licence
+
+Usage personnel et familial.

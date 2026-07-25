@@ -1,0 +1,73 @@
+# Toutes les sources — pas de thème fixe : Gemini classe automatiquement.
+# Ajoutez / retirez des flux librement.
+
+max_articles_per_feed: 8
+max_age_hours: 48
+max_total_articles: 40
+
+feeds:
+  # --- Le Monde ---
+  - id: lm-une
+    name: Le Monde — À la une
+    url: https://www.lemonde.fr/rss/une.xml
+
+  - id: lm-politique
+    name: Le Monde — Politique
+    url: https://www.lemonde.fr/politique/rss_full.xml
+
+  - id: lm-international
+    name: Le Monde — International
+    url: https://www.lemonde.fr/international/rss_full.xml
+
+  - id: lm-societe
+    name: Le Monde — Société
+    url: https://www.lemonde.fr/societe/rss_full.xml
+
+  - id: lm-economie
+    name: Le Monde — Économie
+    url: https://www.lemonde.fr/economie/rss_full.xml
+
+  - id: lm-sport
+    name: Le Monde — Sport
+    url: https://www.lemonde.fr/sport/rss_full.xml
+
+  - id: lm-culture
+    name: Le Monde — Culture
+    url: https://www.lemonde.fr/culture/rss_full.xml
+
+  - id: lm-sciences
+    name: Le Monde — Sciences
+    url: https://www.lemonde.fr/sciences/rss_full.xml
+
+  - id: lm-planete
+    name: Le Monde — Planète
+    url: https://www.lemonde.fr/planete/rss_full.xml
+
+  - id: lm-idees
+    name: Le Monde — Idées
+    url: https://www.lemonde.fr/idees/rss_full.xml
+
+  # --- Charente Libre ---
+  - id: cl-une
+    name: La Charente Libre
+    url: http://www.charentelibre.fr/rss.xml
+
+  - id: cl-charente
+    name: Charente Libre — Charente
+    url: https://www.charentelibre.fr/charente/rss.xml
+
+# Rubriques possibles pour le classement Gemini (tous sujets confondus)
+rubriques:
+  - Politique
+  - Économie
+  - Société
+  - International
+  - Sport
+  - Culture
+  - Sciences
+  - Environnement
+  - Local
+  - Justice
+  - Faits divers
+  - Idées / Débats
+  - Autres

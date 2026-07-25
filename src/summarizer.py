@@ -30,6 +30,7 @@ class GeminiSummarizer:
         self.language = language
 
     def summarize(self, article: Article) -> str:
+        source_text = article.full_text or article.excerpt or "(non fourni)"
         prompt = (
             f"Tu es un journaliste professionnel. Rédige un résumé complet de cet article "
             f"de presse en {self.language}.\n\n"
@@ -41,7 +42,7 @@ class GeminiSummarizer:
             f"Titre : {article.title}\n"
             f"Source : {article.feed_name}\n"
             f"Lien : {article.link}\n"
-            f"Extrait / chapô : {article.excerpt or '(non fourni)'}"
+            f"Texte source ({'intégral' if article.full_text else 'extrait'}) :\n{source_text[:8000]}"
         )
         url = (
             f"https://generativelanguage.googleapis.com/v1beta/models/"

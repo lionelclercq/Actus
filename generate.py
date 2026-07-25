@@ -11,6 +11,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from src.config_loader import load_config
+from src.enricher import enrich_articles
 from src.fetcher import fetch_articles
 from src.generator import render_briefing
 from src.summarizer import build_summarizer
@@ -19,12 +20,20 @@ ROOT = Path(__file__).resolve().parent
 BRIEFINGS_DIR = ROOT / "briefings"
 
 
-def generate(output: Path | None = None, skip_ai: bool = False) -> Path:
+def generate(output: Path | None = None, skip_ai: bool = False, enrich: bool = False) -> Path:
     load_dotenv(ROOT / ".env")
     config = load_config()
     articles = fetch_articles(config)
 
+    if enrich:
+        articles = enrich_articles(articles)
+        enriched = sum(1 for a in articles if a.full_text)
+        print(f"📰 {enriched}/{len(articles)} article(s) enrichi(s) (texte intégral)")
+
     print(f"📥 {len(articles)} article(s) récupéré(s)")
+    imgs = sum(1 for a in articles if a.image_url)
+    if imgs:
+        print(f"🖼️  {imgs} image(s) depuis les flux RSS")
 
     summarizer = build_summarizer() if not skip_ai else None
     summaries: dict[str, str] = {}
@@ -67,8 +76,13 @@ def main() -> None:
         action="store_true",
         help="Pas de résumé IA (extraits RSS uniquement)",
     )
+    parser.add_argument(
+        "--enrich",
+        action="store_true",
+        help="Enrichissement local via cookies (~/.actus/cookies/)",
+    )
     args = parser.parse_args()
-    generate(output=args.output, skip_ai=args.no_ai)
+    generate(output=args.output, skip_ai=args.no_ai, enrich=args.enrich)
 
 
 if __name__ == "__main__":

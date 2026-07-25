@@ -1,6 +1,6 @@
 ---
 date: 2026-07-24
-generated_at: 2026-07-24T17:10:24.278106+00:00
+generated_at: 2026-07-24T11:44:13.614127+00:00
 themes: [une, politique, local, sport, culture]
 ---
 
@@ -9,46 +9,6 @@ themes: [une, politique, local, sport, culture]
 _Résumés d'actualité par thème — généré automatiquement._
 
 ## 📰 À la une
-
-### Courbillac : 100 tonnes de paille parties en fumée
-
-**Source :** La Charente Libre · **Publié :** 24/07/2026 16:57 · [Lire l'article](https://www.charentelibre.fr/charente/courbillac/courbillac-100-tonnes-de-paille-parties-en-fumee-30050423.php)
-
-Le pailler de l’élevage des Javas a été la cible des flammes dans la nuit de jeudi à vendredi à Courbillac. L’agricultrice Valérie Michot déplore la perte de cent tonnes de fourrage alors que d’autres
-
----
-
-### Sireuil : la Distillerie des Moisans placée en redressement judiciaire
-
-**Source :** La Charente Libre · **Publié :** 24/07/2026 16:52 · [Lire l'article](https://www.charentelibre.fr/economie/sireuil-la-distillerie-des-moisans-placee-en-redressement-judiciaire-30048603.php)
-
-Victime de la crise du cognac et plombée par 22M€ de passif, l’entreprise a été placée en redressement le 6 juillet. Elle a six mois pour tenter de redresser la barre et laisse ses apporteurs dans l’incertitude.
-
----
-
-### Accident de Barret : la seconde occupante de la voiture est décédée
-
-**Source :** La Charente Libre · **Publié :** 24/07/2026 16:47 · [Lire l'article](https://www.charentelibre.fr/faits-divers/accident-de-barret-la-seconde-occupante-de-la-voiture-est-decedee-30052597.php)
-
-Mercredi, à Barret, l’accident avait impliqué un poids lourd et une citadine. Une occupante de la voiture était décédée sur place. La seconde, transportée au CHU de Bordeaux, a succombé à ses blessures.
-
----
-
-### « Pourquoi tout changer maintenant ? » : dans cette impasse, l’aménagement du stationnement interroge les riverains
-
-**Source :** La Charente Libre · **Publié :** 24/07/2026 16:43 · [Lire l'article](https://www.charentelibre.fr/societe/urbanisme/pourquoi-tout-changer-maintenant-dans-cette-impasse-l-amenagement-du-stationnement-interroge-les-riverains-30051645.php)
-
-À l’Isle-d’Espagnac, le réaménagement du stationnement dans l’impasse Jean-Jaurès bouleverse les habitudes des riverains. Si la création de nouvelles places est appréciée, plusieurs habitants s’interrogent
-
----
-
-### Vous pesez l’intérêt de chaque acte d’achat, vous êtes dans une démarche minimaliste par souci environnemental ? Racontez-nous !
-
-**Source :** La Charente Libre · **Publié :** 24/07/2026 16:11 · [Lire l'article](https://www.charentelibre.fr/charente/vous-pesez-l-interet-de-chaque-acte-d-achat-vous-etes-dans-une-demarche-minimaliste-par-souci-environnemental-racontez-nous-30052095.php)
-
-Dans le cadre d’un reportage, nous sommes à la recherche de témoignages de Charentais impliqués dans une démarche de minimalisme et de « sobriété heureuse ».
-
----
 
 ### Concert interrompu de Barbara Butch : pour « l’insoumis » Bally Bagayoko, la DJ « a raison » de porter plainte
 
@@ -91,22 +51,6 @@ La préfecture a ordonné ce matin « l’évacuation progressive de l’ensembl
 ---
 
 ## 🏛️ Politique
-
-### Pierre Lefébure, politiste : « Le suractivisme d’un candidat à la présidentielle est risqué, tout ce qu’il dit peut lui être renvoyé au visage plus tard »
-
-**Source :** Le Monde — Politique · **Publié :** 24/07/2026 12:59 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/pierre-lefebure-politiste-le-suractivisme-d-un-candidat-a-la-presidentielle-est-risque-tout-ce-qu-il-dit-peut-lui-etre-renvoye-au-visage-plus-tard_6731504_823448.html)
-
-L’été 2026 s’annonce moins riche en campagnes politiques que d’autres étés précédant le scrutin, mais il promet de donner à voir tout l’éventail des usages en communication et déambulation publique, observe, dans un entretien au « Monde », le maître de conférences en science politique.
-
----
-
-### Présidentielle 2027 : l’écologiste Marine Tondelier poursuit sa campagne malgré la pression de l’union
-
-**Source :** Le Monde — Politique · **Publié :** 24/07/2026 12:00 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/presidentielle-2027-l-ecologiste-marine-tondelier-poursuit-sa-campagne-malgre-la-pression-de-l-union_6731501_823448.html)
-
-Sillonnant le pays à bord d’un van électrique, la secrétaire nationale des Ecologistes continue de porter ses idées pendant que les appels à l’union continuent de diviser le parti.
-
----
 
 ### Loi d’urgence agricole : le Conseil constitutionnel saisi par des députés « insoumis » et écologistes
 
@@ -156,86 +100,60 @@ La préfecture a ordonné ce matin « l’évacuation progressive de l’ensembl
 
 ---
 
-## 📍 Local (Charente)
+### Présidentielle 2027 : pendant l’été, une période de précampagne difficile à ignorer pour les candidats
 
-### Courbillac : 100 tonnes de paille parties en fumée
+**Source :** Le Monde — Politique · **Publié :** 24/07/2026 03:30 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/presidentielle-2027-pendant-l-ete-une-periode-de-precampagne-difficile-a-ignorer-pour-les-candidats_6731416_823448.html)
 
-**Source :** La Charente Libre · **Publié :** 24/07/2026 16:57 · [Lire l'article](https://www.charentelibre.fr/charente/courbillac/courbillac-100-tonnes-de-paille-parties-en-fumee-30050423.php)
-
-Le pailler de l’élevage des Javas a été la cible des flammes dans la nuit de jeudi à vendredi à Courbillac. L’agricultrice Valérie Michot déplore la perte de cent tonnes de fourrage alors que d’autres
+A quelques mois de l’élection, la période estivale est un moment privilégié pour certains candidats de se montrer sur le terrain et pour les partis de consolider leur base.
 
 ---
 
-### Sireuil : la Distillerie des Moisans placée en redressement judiciaire
+### Concert interrompu de Barbara Butch : l’embarras de la direction de LFI face à une action locale
 
-**Source :** La Charente Libre · **Publié :** 24/07/2026 16:52 · [Lire l'article](https://www.charentelibre.fr/economie/sireuil-la-distillerie-des-moisans-placee-en-redressement-judiciaire-30048603.php)
+**Source :** Le Monde — Politique · **Publié :** 24/07/2026 03:15 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/concert-interrompu-de-barbara-butch-l-embarras-de-la-direction-de-lfi-face-a-une-action-locale_6731410_823448.html)
 
-Victime de la crise du cognac et plombée par 22M€ de passif, l’entreprise a été placée en redressement le 6 juillet. Elle a six mois pour tenter de redresser la barre et laisse ses apporteurs dans l’incertitude.
-
----
-
-### Accident de Barret : la seconde occupante de la voiture est décédée
-
-**Source :** La Charente Libre · **Publié :** 24/07/2026 16:47 · [Lire l'article](https://www.charentelibre.fr/faits-divers/accident-de-barret-la-seconde-occupante-de-la-voiture-est-decedee-30052597.php)
-
-Mercredi, à Barret, l’accident avait impliqué un poids lourd et une citadine. Une occupante de la voiture était décédée sur place. La seconde, transportée au CHU de Bordeaux, a succombé à ses blessures.
-
----
-
-### « Pourquoi tout changer maintenant ? » : dans cette impasse, l’aménagement du stationnement interroge les riverains
-
-**Source :** La Charente Libre · **Publié :** 24/07/2026 16:43 · [Lire l'article](https://www.charentelibre.fr/societe/urbanisme/pourquoi-tout-changer-maintenant-dans-cette-impasse-l-amenagement-du-stationnement-interroge-les-riverains-30051645.php)
-
-À l’Isle-d’Espagnac, le réaménagement du stationnement dans l’impasse Jean-Jaurès bouleverse les habitudes des riverains. Si la création de nouvelles places est appréciée, plusieurs habitants s’interrogent
-
----
-
-### Vous pesez l’intérêt de chaque acte d’achat, vous êtes dans une démarche minimaliste par souci environnemental ? Racontez-nous !
-
-**Source :** La Charente Libre · **Publié :** 24/07/2026 16:11 · [Lire l'article](https://www.charentelibre.fr/charente/vous-pesez-l-interet-de-chaque-acte-d-achat-vous-etes-dans-une-demarche-minimaliste-par-souci-environnemental-racontez-nous-30052095.php)
-
-Dans le cadre d’un reportage, nous sommes à la recherche de témoignages de Charentais impliqués dans une démarche de minimalisme et de « sobriété heureuse ».
+Le conseiller d’opposition « insoumis » de Grenoble Allan Brunon est à l’origine de la perturbation d’un concert de la DJ française samedi. Plutôt que de reconnaître un éventuel faux pas, le mouvement s’appuie sur une défense parfois hasardeuse.
 
 ---
 
 ## ⚽ Sport
 
-### Le CIO rejette une plainte contre Gianni Infantino pour « violations répétées des règles exigeant la neutralité politique »
+### Jürgen Klopp officiellement nommé sélectionneur de l’équipe d’Allemagne de football
 
-**Source :** Le Monde — Sport · **Publié :** 24/07/2026 16:16 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/le-cio-rejette-une-plainte-contre-gianni-infantino-pour-violations-repetees-des-regles-exigeant-la-neutralite-politique_6731530_3242.html)
+**Source :** Le Monde — Sport · **Publié :** 24/07/2026 09:58 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/jurgen-klopp-officiellement-nomme-selectionneur-de-l-equipe-d-allemagne-de-football_6731488_3242.html)
 
-L’ONG FairSquare avait saisi, début juillet, la commission d’éthique de l’instance – dont l’Italo-Suisse est membre –, au regard de la proximité affichée du patron de la Fédération internationale de football avec Donald Trump et son ingérence présumée dans l’« affaire Balogun ».
-
----
-
-### LeBron James rejoint les Philadelphia Sixers, où il disputera sa 24ᵉ saison en NBA
-
-**Source :** Le Monde — Sport · **Publié :** 24/07/2026 16:15 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/lebron-james-rejoint-les-philadelphia-sixers-ou-il-disputera-sa-24-saison-en-nba_6731529_3242.html)
-
-A 41 ans, le meilleur marqueur de l’histoire de la Ligue nord-américaine de basket, en fin de contrat avec les Lakers, a annoncé, vendredi, s’engager avec la franchise de Pennsylvanie.
+Le technicien de 59 ans a été intronisé, vendredi, à la tête de la Mannschaft. Il succède à Julian Nagelsmann, démissionnaire après l’élimination de l’équipe par le Paraguay, aux tirs au but, en seizièmes de finale de la Coupe du monde 2026.
 
 ---
 
-### Mark van Bommel nommé à la tête de la sélection masculine belge de football, après Rudi Garcia
+### Tour de France 2026 : une double dose d’Alpe-d’Huez pour le peloton
 
-**Source :** Le Monde — Sport · **Publié :** 24/07/2026 13:40 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/mark-van-bommel-nomme-a-la-tete-de-la-selection-masculine-belge-de-football-apres-rudi-garcia_6731509_3242.html)
+**Source :** Le Monde — Sport · **Publié :** 24/07/2026 07:30 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/tour-de-france-2026-une-double-dose-d-alpe-d-huez-pour-le-peloton_6731468_3242.html)
 
-L’ancien international néerlandais de 49 ans a été choisi pour prendre le poste de sélectionneur des Diables rouges à la suite du Français, dont la non-prolongation du contrat en dépit des objectifs remplis a surpris une partie des observateurs.
-
----
-
-### Eugène Gréau, le coureur du Tour de France emporté dans la nuit et le brouillard de la déportation
-
-**Source :** Le Monde — Sport · **Publié :** 24/07/2026 12:00 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/eugene-greau-le-coureur-du-tour-de-france-emporte-dans-la-nuit-et-le-brouillard-de-la-deportation_6731500_3242.html)
-
-Commencée en héros avec un glorieux coup de pédale qui l’amène à la 47ᵉ place de la Grande Boucle 1929, la vie du champion se termine en 1943 en martyr de la Résistance, après avoir été déporté « Nacht und Nebel » à la prison de Sonnenburg.
+Les coureurs devront affronter les vingt-et-un lacets du col vendredi, dans le final de la 19ᵉ étape… avant de terminer au même endroit le lendemain, lors d’une journée où ils devront escalader trois cols classés hors catégorie.
 
 ---
 
-### Tour de France : Tadej Pogacar, vainqueur à l’Alpe-d’Huez, décroche sa cinquième étape de l’édition et écrase davantage le Tour
+### Tour de France 2026 : le parcours de la dix-neuvième étape (Gap - l’Alpe-d’Huez)
 
-**Source :** Le Monde — Sport · **Publié :** 24/07/2026 11:55 · [Lire l'article](https://www.lemonde.fr/sport/live/2026/07/24/en-direct-tour-de-france-suivez-la-dix-neuvieme-etape-entre-gap-et-l-alpe-d-huez_6731498_3242.html)
+**Source :** Le Monde — Sport · **Publié :** 24/07/2026 06:00 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/tour-de-france-2026-le-parcours-de-la-dix-neuvieme-etape-gap-l-alpe-d-huez_6731462_3242.html)
 
-Le Slovène s’est imposé pour la première fois de sa carrière à l’Alpe d’Huez, après une remontée extraordinaire, et consolide encore plus son maillot jaune. Richard Carapaz, auteur d’une superbe course, prend, lui, le maillot à pois.
+A deux jours de l’arrivée à Paris, les coureurs se lancent dans une étape courte, mais montagneuse, dont l’ascension finale vers la station iséroise se fera par ses 21 virages mythiques.
+
+---
+
+### Tour de France 2026 : une histoire de maillots, de baroudeurs, mais pas encore de favoris
+
+**Source :** Le Monde — Sport · **Publié :** 23/07/2026 17:56 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/23/tour-de-france-2026-une-histoire-de-maillots-de-baroudeurs-mais-pas-encore-de-favoris_6731135_3242.html)
+
+L’Equatorien Richard Carapaz a remporté, jeudi en solitaire, à Orcières-Merlette, une 18ᵉ étape marquée par une bataille pour les tuniques distinctives, à l’exception de la jaune de leader au général, propriété de Tadej Pogacar.
+
+---
+
+### Tour de France : Richard Carapaz s’impose en solitaire à Orcières-Merlette et renoue avec le succès sur la Grande Boucle
+
+**Source :** Le Monde — Sport · **Publié :** 23/07/2026 10:30 · [Lire l'article](https://www.lemonde.fr/sport/live/2026/07/23/en-direct-tour-de-france-suivez-la-dix-huitieme-etape-entre-voiron-et-orcieres-merlette_6730674_3242.html)
+
+Le coureur équatorien, de nouveau à l’attaque pour la première étape du triptyque alpestre de l’édition 2026, a fait craquer Valentin Paret-Peintre dans l’ascension vers Orcières-Merlette (Hautes-Alpes), jeudi, lors de la dix-huitième étape du Tour de France. Tadej Pogacar conserve son maillot jaune.
 
 ---

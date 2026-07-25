@@ -8,12 +8,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   briefing:
@@ -34,65 +28,28 @@ jobs:
           AI_PROVIDER: gemini
         run: |
           if [ -z "$GEMINI_API_KEY" ]; then
-            echo "::warning::GEMINI_API_KEY absent — extraits RSS uniquement."
-            echo "::warning::Ajoutez le secret (nom exact : GEMINI_API_KEY) dans Settings → Secrets → Actions."
+            echo "::warning::GEMINI_API_KEY absent — extraits RSS uniquement. Ajoutez le secret dans Settings → Secrets → Actions."
             python generate.py --no-ai
           else
             python generate.py
           fi
 
-      - name: Export wiki + push GitHub Wiki
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_PAT: ${{ secrets.GH_PAT }}
-        run: |
-          TOKEN="${GH_PAT:-$GITHUB_TOKEN}"
-          python scripts/sync_github_wiki.py --push \
-            --repo "${{ github.repository }}" \
-            --token "$TOKEN"
-
-      - name: Commit briefing + wiki/
+      - name: Commit briefing dans le repo
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add briefings/ wiki/
+          git add briefings/
           if git diff --staged --quiet; then
-            echo "Rien à committer"
+            echo "Briefing inchangé"
           else
             git commit -m "briefing: $(date -u +%Y-%m-%d)"
             git push
           fi
 
-      - name: Préparer GitHub Pages (lecteur web)
+      - name: Pousser vers le Wiki GitHub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          mkdir -p public/reader public/briefings public/wiki
-          cp -r reader/* public/reader/
-          cp briefings/latest.md public/briefings/latest.md
-          cp wiki/*.md public/wiki/ 2>/dev/null || true
-          cat > public/index.html <<'HTML'
-          <!DOCTYPE html>
-          <html><head>
-            <meta charset="utf-8">
-            <meta http-equiv="refresh" content="0;url=reader/">
-            <title>Actus</title>
-          </head><body>
-            <a href="reader/">Lecteur Actus</a> ·
-            <a href="wiki/Home.md">Briefing markdown</a>
-          </body></html>
-          HTML
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: public
-
-  deploy-pages:
-    needs: briefing
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          python scripts/sync_github_wiki.py --push \
+            --repo "${{ github.repository }}" \
+            --token "$GITHUB_TOKEN"

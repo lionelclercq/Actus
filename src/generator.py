@@ -66,6 +66,9 @@ def render_briefing(
                 f"[Lire l'article]({article.link})"
             )
             lines.append("")
+            if article.image_url:
+                lines.append(f"![{article.title}]({article.image_url})")
+                lines.append("")
             lines.append(summary)
             lines.append("")
             lines.append("---")

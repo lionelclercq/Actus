@@ -1,9 +1,3 @@
-.env
-__pycache__/
-*.pyc
-.wiki/
-.wiki-staging/
-_vendor/
-.venv/
-venv/
-briefings/[0-9][0-9][0-9][0-9]-*.md
+# Enrichissement local (cookies abonné) — voir docs/ENRICHISSEMENT.md
+.cookies/
+data/

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Actus Sync</string>
+    <string name="sync_now">Synchroniser maintenant</string>
+    <string name="open_wiki">Ouvrir le wiki</string>
+    <string name="settings_title">Configuration</string>
+    <string name="gemini_key_hint">Clé API Gemini</string>
+    <string name="github_token_hint">Token GitHub (scope repo)</string>
+    <string name="github_repo_hint">Dépôt (ex. lionelclercq/Actus)</string>
+    <string name="save_settings">Enregistrer</string>
+    <string name="sync_idle">Connectez vos abonnements, puis synchronisez Le Monde et Charente Libre vers le wiki.</string>
+    <string name="sync_running">Synchronisation en cours…</string>
+    <string name="sync_success">Wiki mis à jour avec succès.</string>
+    <string name="notification_channel">Synchronisation Actus</string>
+    <string name="notification_sync_title">Actus Sync</string>
+    <string name="notification_sync_text">Mise à jour du wiki en cours…</string>
+    <string name="subscriptions_title">Abonnements</string>
+    <string name="subscriptions_hint">Connectez-vous une fois à chaque site pour lire les articles complets.</string>
+    <string name="login_lemonde">Se connecter — Le Monde</string>
+    <string name="login_charente">Se connecter — Charente Libre</string>
+    <string name="save_session">Enregistrer la session</string>
+    <string name="subscription_connected">Connecté</string>
+    <string name="subscription_disconnected">Non connecté</string>
+</resources>
