@@ -11,13 +11,32 @@ android {
         applicationId = "fr.actus.sync"
         minSdk = 26
         targetSdk = 35
-        versionCode = 2
-        versionName = "1.1.1"
+        versionCode = 3
+        versionName = "1.1.2"
+    }
+
+    signingConfigs {
+        create("release") {
+            val keystorePath = System.getenv("ACTUS_KEYSTORE_PATH")
+            if (!keystorePath.isNullOrBlank()) {
+                storeFile = file(keystorePath)
+                storePassword = System.getenv("ACTUS_KEYSTORE_PASSWORD").orEmpty()
+                keyAlias = System.getenv("ACTUS_KEY_ALIAS") ?: "actus"
+                keyPassword = System.getenv("ACTUS_KEY_PASSWORD").orEmpty()
+            } else {
+                // Même clé que l'APK v1.1.0 (debug) pour permettre la mise à jour sans désinstallation.
+                storeFile = file("${System.getProperty("user.home")}/.android/debug.keystore")
+                storePassword = "android"
+                keyAlias = "AndroidDebugKey"
+                keyPassword = "android"
+            }
+        }
     }
 
     buildTypes {
         release {
             isMinifyEnabled = false
+            signingConfig = signingConfigs.getByName("release")
         }
     }
 

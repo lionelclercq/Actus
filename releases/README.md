@@ -2,9 +2,9 @@
 
 ## Lien GitHub
 
-**https://github.com/lionelclercq/Actus/releases/tag/actus-sync-v1.1.1**
+**https://github.com/lionelclercq/Actus/releases/tag/actus-sync-v1.1.2**
 
-(Appuyez sur `actus-sync-v1.1.1.apk` pour télécharger.)
+(Appuyez sur `actus-sync-v1.1.2.apk` pour télécharger.)
 
 ---
 

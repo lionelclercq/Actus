@@ -5,7 +5,7 @@ set -euo pipefail
 
 ACTUS_OWNER="${ACTUS_OWNER:-lionelclercq}"
 ACTUS_NAME="${ACTUS_NAME:-Actus}"
-TAG="actus-sync-v1.1.1"
+TAG="actus-sync-v1.1.2"
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 WORKDIR="${TMPDIR:-/tmp}/actus-deploy-$$"
 
@@ -37,20 +37,20 @@ rm -rf android/app/build android/.gradle 2>/dev/null || true
 
 echo "→ Commit…"
 git add -A
-git diff --staged --quiet || git commit -m "feat: Actus Sync APK v1.1.1 — correctif crash synchronisation"
+git diff --staged --quiet || git commit -m "feat: Actus Sync APK v1.1.2 — signature correcte + sauvegarde config"
 
 echo "→ Push main…"
 git push origin main
 
-APK="releases/actus-sync-v1.1.1.apk"
+APK="releases/actus-sync-v1.1.2.apk"
 if [[ -f "$APK" ]]; then
   echo "→ Publication Release…"
   gh release view "$TAG" --repo "${ACTUS_OWNER}/${ACTUS_NAME}" >/dev/null 2>&1 && \
     gh release delete "$TAG" --repo "${ACTUS_OWNER}/${ACTUS_NAME}" --yes || true
   gh release create "$TAG" "$APK" \
     --repo "${ACTUS_OWNER}/${ACTUS_NAME}" \
-    --title "Actus Sync v1.1.1" \
-    --notes "Correctif crash à la synchronisation (Android 14+, notifications). Le Monde + Charente Libre + Gemini + Wiki."
+    --title "Actus Sync v1.1.2" \
+    --notes "Correctif mise à jour APK (signature) + export/import de la configuration. Crash sync Android 14+."
   echo ""
   echo "✅ Lien de téléchargement :"
   echo "   https://github.com/${ACTUS_OWNER}/${ACTUS_NAME}/releases/tag/$TAG"

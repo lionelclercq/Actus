@@ -1,5 +1,8 @@
 package fr.actus.sync.ui
 
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.Context
 import android.Manifest
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -15,6 +18,7 @@ import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkInfo
 import androidx.work.WorkManager
 import fr.actus.sync.R
+import fr.actus.sync.data.ConfigBackup
 import fr.actus.sync.data.CookieRepository
 import fr.actus.sync.data.CookieRepositoryHolder
 import fr.actus.sync.data.SettingsRepository
@@ -44,6 +48,8 @@ class MainActivity : AppCompatActivity() {
         observeWork()
 
         binding.saveButton.setOnClickListener { saveSettings() }
+        binding.exportConfigButton.setOnClickListener { exportConfig() }
+        binding.importConfigButton.setOnClickListener { importConfig() }
         binding.syncButton.setOnClickListener { requestSync() }
         binding.loginLeMondeButton.setOnClickListener {
             openLogin(CookieRepository.PublisherSite.LEMONDE)
@@ -92,6 +98,33 @@ class MainActivity : AppCompatActivity() {
         settings.githubRepo = binding.githubRepoInput.text?.toString().orEmpty()
             .ifBlank { SettingsRepository.DEFAULT_REPO }
         Toast.makeText(this, "Configuration enregistrée", Toast.LENGTH_SHORT).show()
+    }
+
+    private fun exportConfig() {
+        saveSettings()
+        val backup = ConfigBackup.export(settings)
+        val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+        clipboard.setPrimaryClip(ClipData.newPlainText("Actus Sync config", backup))
+        binding.importConfigInput.setText(backup)
+        Toast.makeText(this, R.string.export_config_copied, Toast.LENGTH_LONG).show()
+    }
+
+    private fun importConfig() {
+        val raw = binding.importConfigInput.text?.toString().orEmpty().ifBlank {
+            val clipboard = getSystemService(Context.CLIPBOARD_SERVICE) as ClipboardManager
+            clipboard.primaryClip?.getItemAt(0)?.text?.toString().orEmpty()
+        }
+        if (raw.isBlank()) {
+            Toast.makeText(this, R.string.import_config_error, Toast.LENGTH_SHORT).show()
+            return
+        }
+        try {
+            ConfigBackup.import(settings, raw)
+            loadSettings()
+            Toast.makeText(this, R.string.import_config_done, Toast.LENGTH_SHORT).show()
+        } catch (_: Exception) {
+            Toast.makeText(this, R.string.import_config_error, Toast.LENGTH_SHORT).show()
+        }
     }
 
     private fun requestSync() {

@@ -8,6 +8,12 @@
     <string name="github_token_hint">Token GitHub (scope repo)</string>
     <string name="github_repo_hint">Dépôt (ex. lionelclercq/Actus)</string>
     <string name="save_settings">Enregistrer</string>
+    <string name="export_config">Sauvegarder la configuration</string>
+    <string name="import_config">Restaurer la configuration</string>
+    <string name="import_config_hint">Collez ici une sauvegarde exportée</string>
+    <string name="export_config_copied">Configuration copiée — conservez ce texte avant une mise à jour</string>
+    <string name="import_config_done">Configuration restaurée</string>
+    <string name="import_config_error">Sauvegarde invalide</string>
     <string name="sync_idle">Connectez vos abonnements, puis synchronisez Le Monde et Charente Libre vers le wiki.</string>
     <string name="sync_running">Synchronisation en cours…</string>
     <string name="sync_success">Wiki mis à jour avec succès.</string>
