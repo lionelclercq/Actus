@@ -17,19 +17,16 @@ android {
 
     signingConfigs {
         create("release") {
-            val keystorePath = System.getenv("ACTUS_KEYSTORE_PATH")
-            if (!keystorePath.isNullOrBlank()) {
-                storeFile = file(keystorePath)
-                storePassword = System.getenv("ACTUS_KEYSTORE_PASSWORD").orEmpty()
-                keyAlias = System.getenv("ACTUS_KEY_ALIAS") ?: "actus"
-                keyPassword = System.getenv("ACTUS_KEY_PASSWORD").orEmpty()
-            } else {
-                // Même clé que l'APK v1.1.0 (debug) pour permettre la mise à jour sans désinstallation.
-                storeFile = file("${System.getProperty("user.home")}/.android/debug.keystore")
-                storePassword = "android"
-                keyAlias = "AndroidDebugKey"
-                keyPassword = "android"
-            }
+            // Keystore stable pour toutes les versions (mise à jour sans désinstallation).
+            // Variables d'env pour CI ; fallback sur le fichier local du dépôt.
+            val ksPath = System.getenv("ACTUS_KEYSTORE_PATH") ?: "${rootDir}/actus-release.keystore"
+            val ksPass = System.getenv("ACTUS_KEYSTORE_PASSWORD") ?: "actussync2024"
+            val ksAlias = System.getenv("ACTUS_KEY_ALIAS") ?: "actus-release"
+            val ksKeyPass = System.getenv("ACTUS_KEY_PASSWORD") ?: "actussync2024"
+            storeFile = file(ksPath)
+            storePassword = ksPass
+            keyAlias = ksAlias
+            keyPassword = ksKeyPass
         }
     }
 

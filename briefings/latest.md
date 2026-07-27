@@ -1,257 +1,159 @@
 ---
-date: 2026-07-27
-generated_at: 2026-07-27T10:00:39.940234+00:00
+date: 2026-07-24
+generated_at: 2026-07-24T11:44:13.614127+00:00
 themes: [une, politique, local, sport, culture]
 ---
 
-# Briefing du 27 July 2026
+# Briefing du 24 July 2026
 
 _Résumés d'actualité par thème — généré automatiquement._
 
 ## 📰 À la une
 
-### Un triomphe tout en contrastes pour l’hommage à Barbara à Jarnac
+### Concert interrompu de Barbara Butch : pour « l’insoumis » Bally Bagayoko, la DJ « a raison » de porter plainte
 
-**Source :** La Charente Libre · **Publié :** 27/07/2026 09:51 · [Lire l'article](https://www.charentelibre.fr/charente/jarnac/un-triomphe-tout-en-contrastes-pour-l-hommage-a-barbara-a-jarnac-30078957.php)
+**Source :** Le Monde — À la une · **Publié :** 24/07/2026 07:47 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/concert-interrompu-de-barbara-butch-pour-l-insoumis-bally-bagayoko-la-dj-a-raison-de-porter-plainte_6731470_823448.html)
 
-Belle histoire d’amour dimanche soir aux 3 coups de Jarnac entre l’ensemble Contraste et le public sous le charme pour un hommage nostalgie à la chanteuse disparue il y a bientôt trente ans.
-
----
-
-### La Poste : les tarifs des timbres et des colis vont augmenter au 1er janvier 2027
-
-**Source :** La Charente Libre · **Publié :** 27/07/2026 09:06 · [Lire l'article](https://www.charentelibre.fr/economie/mon-argent/la-poste-les-tarifs-des-timbres-et-des-colis-vont-augmenter-au-1er-janvier-2027-30078724.php)
-
-Envoyer une lettre ou un colis coûtera plus cher à partir du 1er janvier 2027. La Poste a annoncé une hausse moyenne de 6,73 % de ses tarifs d’affranchissement, avec une augmentation de près de 10 % pour
+Samedi soir, à Grenoble, le concert de l’artiste, de confession juive, avait été interrompu au bout d’une vingtaine de minutes en raison d’une action de militants propalestiniens et de LFI. Ils répondaient à un appel au boycott lancé notamment par la section iséroise des « insoumis ».
 
 ---
 
-### 2,6 tonnes de cocaïne saisies : le spectaculaire coup de filet contre les « taxis des mers »
+### Présidentielle 2027 : en Bretagne, Gabriel Attal mène campagne pour faire décoller sa candidature
 
-**Source :** La Charente Libre · **Publié :** 27/07/2026 09:02 · [Lire l'article](https://www.charentelibre.fr/faits-divers/stupefiants/2-6-tonnes-de-cocaine-saisies-le-spectaculaire-coup-de-filet-contre-les-taxis-des-mers-30078582.php)
+**Source :** Le Monde — À la une · **Publié :** 24/07/2026 07:30 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/presidentielle-2027-en-bretagne-gabriel-attal-mene-campagne-pour-faire-decoller-sa-candidature_6731467_823448.html)
 
-Plus de 2,6 tonnes de cocaïne, d’une valeur estimée à près de 500 millions d’euros à la revente, ont été saisies au large du Portugal. À bord du go-fast intercepté, quatre hommes ont été arrêtés. Les enquêteurs
-
----
-
-### Randonnée d’été : six kilomètres entre patrimoine et nature à Graves-Saint-Amant
-
-**Source :** La Charente Libre · **Publié :** 27/07/2026 09:00 · [Lire l'article](https://www.charentelibre.fr/culture-et-loisirs/randonnee-d-ete-six-kilometres-entre-patrimoine-et-nature-a-graves-saint-amant-29941835.php)
-
-Tout l’été, Charente Libre vous propose de découvrir le département au travers de divers circuits de randonnée. Cette semaine, cap vers Graves-Saint-Amant, avec un parcours de six kilomètres mêlant monuments
+Arpentant durant trois jours la région, le candidat à l’Elysée s’est affiché, jeudi, aux côtés du patron Michel-Edouard Leclerc et a martelé sa volonté de « réduire l’écart entre le [salaire] net et le brut ». La trêve estivale est l’occasion pour lui de multiplier les déplacements pour se maintenir dans la course.
 
 ---
 
-### Pour aider une fillette de 7 ans atteinte d’un deuxième cancer des os, elles vont parcourir 904 km à vélo
+### Posez vos questions sur l’interdiction des réseaux sociaux aux moins de 15 ans
 
-**Source :** La Charente Libre · **Publié :** 27/07/2026 08:50 · [Lire l'article](https://www.charentelibre.fr/charente/le-lindois-une-odyssee-de-900-km-pour-aider-lilwenn-et-sa-famille-30031869.php)
+**Source :** Le Monde — À la une · **Publié :** 24/07/2026 07:00 · [Lire l'article](https://www.lemonde.fr/pixels/live/2026/07/24/posez-vos-questions-sur-l-interdiction-des-reseaux-sociaux-aux-moins-de-15-ans_6731466_4408996.html)
 
-Dans le cadre de Parcours espoir, Mélissa Rougier et Virginie Picot vont parcourir 904 km dans l’objectif de collecter des fonds pour venir en aide à Lilwenn, qui combat un deuxième cancer des os.
-
----
-
-### Incendie en Gironde : à Cestas et à Marcheprime, sur les avant-postes qui défendent Bordeaux
-
-**Source :** Le Monde — À la une · **Publié :** 27/07/2026 07:41 · [Lire l'article](https://www.lemonde.fr/planete/article/2026/07/27/incendie-en-gironde-a-cestas-et-a-marcheprime-sur-les-avant-postes-qui-defendent-bordeaux_6733909_3244.html)
-
-Le feu se rapprochait, dimanche, de la banlieue sud-ouest de Bordeaux, contraignant les pompiers et les volontaires à d’incessantes manœuvres à 15 kilomètres de la métropole girondine pour se redéployer et attaquer les flammes.
+Députés et sénateurs ont adopté, mardi 21 juillet, l’interdiction des réseaux sociaux aux moins de 15 ans. Florian Reynaud et Morgane Tual, journalistes au service Pixels du « Monde », répondent à vos questions par tchat à partir de 10 heures.
 
 ---
 
-### EN DIRECT, guerre en Ukraine : une attaque de drones ukrainiens fait deux morts dans le sud de la Russie, selon les autorités locales
+### EN DIRECT, incendies : la préfecture ordonne l’évacuation « de l’ensemble de la presqu’île » du cap Ferret, le feu a parcouru plus de 10 000 hectares
 
-**Source :** Le Monde — À la une · **Publié :** 27/07/2026 05:56 · [Lire l'article](https://www.lemonde.fr/international/live/2026/07/27/en-direct-guerre-en-ukraine-une-attaque-de-drones-ukrainiens-fait-deux-morts-dans-le-sud-de-la-russie-selon-les-autorites-locales_6732775_3210.html)
+**Source :** Le Monde — À la une · **Publié :** 24/07/2026 04:45 · [Lire l'article](https://www.lemonde.fr/planete/live/2026/07/24/en-direct-incendies-plus-de-23-000-personnes-evacuees-dans-les-landes-en-gironde-la-prefecture-ordonne-l-evacuation-de-plusieurs-villages-de-la-presqu-ile-du-cap-ferret_6730417_3244.html)
 
-Une frappe ukrainienne nocturne sur la ville de Rostov-sur-le-Don a tué un couple et blessé cinq personnes, a déclaré le gouverneur régional. De son côté, l’armée ukrainienne a affirmé que 147 drones russes avaient été lancés contre le territoire ukrainien pendant la nuit, précisant que l’attaque se poursuivait lundi matin.
-
----
-
-### EN DIRECT, guerre au Moyen-Orient : Donald Trump assure que les Etats-Unis disposent de suffisamment de munitions
-
-**Source :** Le Monde — À la une · **Publié :** 27/07/2026 04:31 · [Lire l'article](https://www.lemonde.fr/international/live/2026/07/27/en-direct-guerre-au-moyen-orient-le-chef-de-la-diplomatie-iranienne-accuse-l-ukraine-d-avoir-attaque-un-navire-commercial-iranien_6725301_3210.html)
-
-Dans une interview au « Wall Street Journal », le président américain a nié toute pénurie alors que des inquiétudes se font jour concernant les stocks américains d’intercepteurs antimissiles. D’après le Center for Strategic and International Studies, au moins 1 500 intercepteurs Patriot auraient été utilisés depuis le début du conflit, laissant moins de 1 000 unités dans les stocks américains.
+La préfecture a ordonné ce matin « l’évacuation progressive de l’ensemble de la presqu’île du Bassin d’Arcachon, village après village, de Claouey jusqu’à la pointe du cap Ferret ». Aucun nouveau blessé n’est à déplorer à ce stade, précise-t-elle.
 
 ---
 
-### « Je n’aurais pas cru que cela puisse se passer dans la ville la plus “queer-friendly” du monde » : Berlin bouleversée par l’attentat contre la Marche des fiertés
+### EN DIRECT, guerre en Ukraine : une attaque de drones ukrainiens à Saint-Pétersbourg provoque un incendie dans un entrepôt
 
-**Source :** Le Monde — À la une · **Publié :** 27/07/2026 03:00 · [Lire l'article](https://www.lemonde.fr/international/article/2026/07/27/je-n-aurais-pas-cru-que-cela-puisse-se-passer-dans-la-ville-la-plus-queer-friendly-du-monde-berlin-bouleversee-par-l-attentat-contre-la-marche-des-fiertes_6733572_3210.html)
+**Source :** Le Monde — À la une · **Publié :** 24/07/2026 03:55 · [Lire l'article](https://www.lemonde.fr/international/live/2026/07/24/en-direct-guerre-en-ukraine-une-attaque-de-drones-ukrainiens-a-saint-petersbourg-provoque-un-incendie-dans-un-entrepot_6725306_3210.html)
 
-Samedi soir, une femme est morte, et 29 personnes ont été blessées, après qu’un homme conduisant une camionnette a foncé sur un groupe de participants, dans le bois de Tiergarten. Après une longue cavale, le suspect, Abdul Ballout, a été abattu par la police, dimanche soir, dans le quartier de Spandau.
-
----
-
-### Kirkenes, le petit port sur la nouvelle route de l’Arctique où grouillent les espions
-
-**Source :** Le Monde — À la une · **Publié :** 26/07/2026 04:00 · [Lire l'article](https://www.lemonde.fr/economie/article/2026/07/26/kirkenes-le-petit-port-sur-la-nouvelle-route-de-l-arctique-ou-grouillent-les-espions_6732769_3234.html)
-
-« La ruée sur les ports » (16/16). Le réchauffement climatique pourrait changer le destin de la petite ville norvégienne de 3 500 habitants qui se situe sur une nouvelle route maritime, libérée par la fonte de la banquise, reliant l’Europe et l’Asie. Mais la proximité de la Russie et les tensions géopolitiques contrarient ses ambitions.
+« La frappe a visé des installations d’infrastructures civiles », a déclaré le gouverneur de la ville, Alexandre Beglov. Selon des images diffusées sur les réseaux sociaux et des médias locaux, des entrepôts appartenant au géant du commerce en ligne Wildberries, l’équivalent russe d’Amazon, ont été ciblés.
 
 ---
 
 ## 🏛️ Politique
 
-### Incendie en Gironde : à Cestas et à Marcheprime, sur les avant-postes qui défendent Bordeaux
+### Loi d’urgence agricole : le Conseil constitutionnel saisi par des députés « insoumis » et écologistes
 
-**Source :** Le Monde — À la une · **Publié :** 27/07/2026 07:41 · [Lire l'article](https://www.lemonde.fr/planete/article/2026/07/27/incendie-en-gironde-a-cestas-et-a-marcheprime-sur-les-avant-postes-qui-defendent-bordeaux_6733909_3244.html)
+**Source :** Le Monde — Politique · **Publié :** 24/07/2026 11:36 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/loi-d-urgence-agricole-le-conseil-constitutionnel-saisi-par-des-deputes-insoumis-et-ecologistes_6731496_823448.html)
 
-Le feu se rapprochait, dimanche, de la banlieue sud-ouest de Bordeaux, contraignant les pompiers et les volontaires à d’incessantes manœuvres à 15 kilomètres de la métropole girondine pour se redéployer et attaquer les flammes.
-
----
-
-### EN DIRECT, guerre en Ukraine : une attaque de drones ukrainiens fait deux morts dans le sud de la Russie, selon les autorités locales
-
-**Source :** Le Monde — À la une · **Publié :** 27/07/2026 05:56 · [Lire l'article](https://www.lemonde.fr/international/live/2026/07/27/en-direct-guerre-en-ukraine-une-attaque-de-drones-ukrainiens-fait-deux-morts-dans-le-sud-de-la-russie-selon-les-autorites-locales_6732775_3210.html)
-
-Une frappe ukrainienne nocturne sur la ville de Rostov-sur-le-Don a tué un couple et blessé cinq personnes, a déclaré le gouverneur régional. De son côté, l’armée ukrainienne a affirmé que 147 drones russes avaient été lancés contre le territoire ukrainien pendant la nuit, précisant que l’attaque se poursuivait lundi matin.
+Les députés requérants arguent notamment que la réintroduction sous conditions de certains pesticides interdits n’a pas de lien avec le projet de loi initial, et devrait donc être censurée comme cavalier législatif.
 
 ---
 
-### EN DIRECT, guerre au Moyen-Orient : Donald Trump assure que les Etats-Unis disposent de suffisamment de munitions
+### Concert interrompu de Barbara Butch : pour « l’insoumis » Bally Bagayoko, la DJ « a raison » de porter plainte
 
-**Source :** Le Monde — À la une · **Publié :** 27/07/2026 04:31 · [Lire l'article](https://www.lemonde.fr/international/live/2026/07/27/en-direct-guerre-au-moyen-orient-le-chef-de-la-diplomatie-iranienne-accuse-l-ukraine-d-avoir-attaque-un-navire-commercial-iranien_6725301_3210.html)
+**Source :** Le Monde — À la une · **Publié :** 24/07/2026 07:47 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/concert-interrompu-de-barbara-butch-pour-l-insoumis-bally-bagayoko-la-dj-a-raison-de-porter-plainte_6731470_823448.html)
 
-Dans une interview au « Wall Street Journal », le président américain a nié toute pénurie alors que des inquiétudes se font jour concernant les stocks américains d’intercepteurs antimissiles. D’après le Center for Strategic and International Studies, au moins 1 500 intercepteurs Patriot auraient été utilisés depuis le début du conflit, laissant moins de 1 000 unités dans les stocks américains.
-
----
-
-### Le gouvernement de Sébastien Lecornu mis à l’épreuve dans la lutte contre les « incendies XXL »
-
-**Source :** Le Monde — Politique · **Publié :** 27/07/2026 03:30 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/27/la-gestion-controversee-du-gouvernement-face-aux-incendies-xxl_6733607_823448.html)
-
-Emmanuel Macron doit présider, lundi, la cellule de crise consacrée aux feux qui ravagent, notamment, la Gironde. Des élus locaux estiment que les moyens de la sécurité civile ne sont pas adaptés au changement climatique, davantage propice aux mégafeux.
+Samedi soir, à Grenoble, le concert de l’artiste, de confession juive, avait été interrompu au bout d’une vingtaine de minutes en raison d’une action de militants propalestiniens et de LFI. Ils répondaient à un appel au boycott lancé notamment par la section iséroise des « insoumis ».
 
 ---
 
-### « Je n’aurais pas cru que cela puisse se passer dans la ville la plus “queer-friendly” du monde » : Berlin bouleversée par l’attentat contre la Marche des fiertés
+### Présidentielle 2027 : en Bretagne, Gabriel Attal mène campagne pour faire décoller sa candidature
 
-**Source :** Le Monde — À la une · **Publié :** 27/07/2026 03:00 · [Lire l'article](https://www.lemonde.fr/international/article/2026/07/27/je-n-aurais-pas-cru-que-cela-puisse-se-passer-dans-la-ville-la-plus-queer-friendly-du-monde-berlin-bouleversee-par-l-attentat-contre-la-marche-des-fiertes_6733572_3210.html)
+**Source :** Le Monde — À la une · **Publié :** 24/07/2026 07:30 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/presidentielle-2027-en-bretagne-gabriel-attal-mene-campagne-pour-faire-decoller-sa-candidature_6731467_823448.html)
 
-Samedi soir, une femme est morte, et 29 personnes ont été blessées, après qu’un homme conduisant une camionnette a foncé sur un groupe de participants, dans le bois de Tiergarten. Après une longue cavale, le suspect, Abdul Ballout, a été abattu par la police, dimanche soir, dans le quartier de Spandau.
-
----
-
-### Le Brésil rappelle son ambassadeur en Argentine après des « propos offensants » de Javier Milei, qui s’en prend aussi au Mexique et au Parti démocrate américain
-
-**Source :** Le Monde — Politique · **Publié :** 27/07/2026 00:20 · [Lire l'article](https://www.lemonde.fr/international/article/2026/07/27/le-bresil-rappelle-son-ambassadeur-en-argentine-apres-des-propos-offensants-de-javier-milei-qui-s-en-prend-aussi-au-mexique-et-au-parti-democrate-americain_6733504_3210.html)
-
-Brasilia a également convoqué l’ambassadeur de l’Argentine après de nouvelles attaques verbales du président argentin visant, entre autres, son homologue brésilien.
+Arpentant durant trois jours la région, le candidat à l’Elysée s’est affiché, jeudi, aux côtés du patron Michel-Edouard Leclerc et a martelé sa volonté de « réduire l’écart entre le [salaire] net et le brut ». La trêve estivale est l’occasion pour lui de multiplier les déplacements pour se maintenir dans la course.
 
 ---
 
-### Incendies en Gironde et dans les Landes : « Ce qui brûle aujourd’hui n’est pas seulement une forêt, mais une manière d’habiter le territoire qui n’est plus possible »
+### Posez vos questions sur l’interdiction des réseaux sociaux aux moins de 15 ans
 
-**Source :** Le Monde — Politique · **Publié :** 26/07/2026 12:00 · [Lire l'article](https://www.lemonde.fr/idees/article/2026/07/26/incendies-en-gironde-et-dans-les-landes-ce-qui-brule-aujourd-hui-n-est-pas-seulement-une-foret-mais-une-maniere-d-habiter-le-territoire-qui-n-est-plus-possible_6733287_3232.html)
+**Source :** Le Monde — À la une · **Publié :** 24/07/2026 07:00 · [Lire l'article](https://www.lemonde.fr/pixels/live/2026/07/24/posez-vos-questions-sur-l-interdiction-des-reseaux-sociaux-aux-moins-de-15-ans_6731466_4408996.html)
 
-La philosophe Cynthia Fleury et le maire de Saint-Médard-en-Jalles (Gironde), le socialiste Stéphane Delpeyrat-Vincent, estiment, dans une tribune au « Monde », que face aux feux hors norme qui s’abattent sur la France et à la crise climatique, la préparation pourrait devenir plus qu’une adaptation technique : un acte démocratique.
-
----
-
-### Kirkenes, le petit port sur la nouvelle route de l’Arctique où grouillent les espions
-
-**Source :** Le Monde — À la une · **Publié :** 26/07/2026 04:00 · [Lire l'article](https://www.lemonde.fr/economie/article/2026/07/26/kirkenes-le-petit-port-sur-la-nouvelle-route-de-l-arctique-ou-grouillent-les-espions_6732769_3234.html)
-
-« La ruée sur les ports » (16/16). Le réchauffement climatique pourrait changer le destin de la petite ville norvégienne de 3 500 habitants qui se situe sur une nouvelle route maritime, libérée par la fonte de la banquise, reliant l’Europe et l’Asie. Mais la proximité de la Russie et les tensions géopolitiques contrarient ses ambitions.
+Députés et sénateurs ont adopté, mardi 21 juillet, l’interdiction des réseaux sociaux aux moins de 15 ans. Florian Reynaud et Morgane Tual, journalistes au service Pixels du « Monde », répondent à vos questions par tchat à partir de 10 heures.
 
 ---
 
-### Présidentielle 2027 : les « insoumis » et leurs caravanes populaires à la conquête des abstentionnistes
+### EN DIRECT, incendies : la préfecture ordonne l’évacuation « de l’ensemble de la presqu’île » du cap Ferret, le feu a parcouru plus de 10 000 hectares
 
-**Source :** Le Monde — Politique · **Publié :** 26/07/2026 04:00 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/26/presidentielle-2027-les-insoumis-et-leurs-caravanes-populaires-a-la-conquete-des-abstentionnistes_6732763_823448.html)
+**Source :** Le Monde — À la une · **Publié :** 24/07/2026 04:45 · [Lire l'article](https://www.lemonde.fr/planete/live/2026/07/24/en-direct-incendies-plus-de-23-000-personnes-evacuees-dans-les-landes-en-gironde-la-prefecture-ordonne-l-evacuation-de-plusieurs-villages-de-la-presqu-ile-du-cap-ferret_6730417_3244.html)
 
-Tout au long de l’été, les militants de La France insoumise sillonnent la France, privilégiant les quartiers populaires pour encourager les habitants à s’inscrire sur les listes électorales. Mais aussi pour mieux faire connaître la candidature de Jean-Luc Mélenchon.
-
----
-
-### A Villeneuve-Saint-Georges, les méthodes de la police municipale, les plaintes en série et le coup de filet de la police nationale
-
-**Source :** Le Monde — Politique · **Publié :** 25/07/2026 15:00 · [Lire l'article](https://www.lemonde.fr/societe/article/2026/07/25/a-villeneuve-saint-georges-les-methodes-de-la-police-municipale-les-plaintes-en-serie-et-le-coup-de-filet-de-la-police-nationale_6732382_3224.html)
-
-Missionnée par la nouvelle édile, Kristell Niasme (Les Républicains), pour mener des opérations plus offensives, la police municipale de la ville est au cœur d’une enquête judiciaire qui vaut à sept de ses membres d’être renvoyés devant le tribunal.
+La préfecture a ordonné ce matin « l’évacuation progressive de l’ensemble de la presqu’île du Bassin d’Arcachon, village après village, de Claouey jusqu’à la pointe du cap Ferret ». Aucun nouveau blessé n’est à déplorer à ce stade, précise-t-elle.
 
 ---
 
-## 📍 Local (Charente)
+### EN DIRECT, guerre en Ukraine : une attaque de drones ukrainiens à Saint-Pétersbourg provoque un incendie dans un entrepôt
 
-### Un triomphe tout en contrastes pour l’hommage à Barbara à Jarnac
+**Source :** Le Monde — À la une · **Publié :** 24/07/2026 03:55 · [Lire l'article](https://www.lemonde.fr/international/live/2026/07/24/en-direct-guerre-en-ukraine-une-attaque-de-drones-ukrainiens-a-saint-petersbourg-provoque-un-incendie-dans-un-entrepot_6725306_3210.html)
 
-**Source :** La Charente Libre · **Publié :** 27/07/2026 09:51 · [Lire l'article](https://www.charentelibre.fr/charente/jarnac/un-triomphe-tout-en-contrastes-pour-l-hommage-a-barbara-a-jarnac-30078957.php)
-
-Belle histoire d’amour dimanche soir aux 3 coups de Jarnac entre l’ensemble Contraste et le public sous le charme pour un hommage nostalgie à la chanteuse disparue il y a bientôt trente ans.
+« La frappe a visé des installations d’infrastructures civiles », a déclaré le gouverneur de la ville, Alexandre Beglov. Selon des images diffusées sur les réseaux sociaux et des médias locaux, des entrepôts appartenant au géant du commerce en ligne Wildberries, l’équivalent russe d’Amazon, ont été ciblés.
 
 ---
 
-### La Poste : les tarifs des timbres et des colis vont augmenter au 1er janvier 2027
+### Présidentielle 2027 : pendant l’été, une période de précampagne difficile à ignorer pour les candidats
 
-**Source :** La Charente Libre · **Publié :** 27/07/2026 09:06 · [Lire l'article](https://www.charentelibre.fr/economie/mon-argent/la-poste-les-tarifs-des-timbres-et-des-colis-vont-augmenter-au-1er-janvier-2027-30078724.php)
+**Source :** Le Monde — Politique · **Publié :** 24/07/2026 03:30 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/presidentielle-2027-pendant-l-ete-une-periode-de-precampagne-difficile-a-ignorer-pour-les-candidats_6731416_823448.html)
 
-Envoyer une lettre ou un colis coûtera plus cher à partir du 1er janvier 2027. La Poste a annoncé une hausse moyenne de 6,73 % de ses tarifs d’affranchissement, avec une augmentation de près de 10 % pour
-
----
-
-### 2,6 tonnes de cocaïne saisies : le spectaculaire coup de filet contre les « taxis des mers »
-
-**Source :** La Charente Libre · **Publié :** 27/07/2026 09:02 · [Lire l'article](https://www.charentelibre.fr/faits-divers/stupefiants/2-6-tonnes-de-cocaine-saisies-le-spectaculaire-coup-de-filet-contre-les-taxis-des-mers-30078582.php)
-
-Plus de 2,6 tonnes de cocaïne, d’une valeur estimée à près de 500 millions d’euros à la revente, ont été saisies au large du Portugal. À bord du go-fast intercepté, quatre hommes ont été arrêtés. Les enquêteurs
+A quelques mois de l’élection, la période estivale est un moment privilégié pour certains candidats de se montrer sur le terrain et pour les partis de consolider leur base.
 
 ---
 
-### Randonnée d’été : six kilomètres entre patrimoine et nature à Graves-Saint-Amant
+### Concert interrompu de Barbara Butch : l’embarras de la direction de LFI face à une action locale
 
-**Source :** La Charente Libre · **Publié :** 27/07/2026 09:00 · [Lire l'article](https://www.charentelibre.fr/culture-et-loisirs/randonnee-d-ete-six-kilometres-entre-patrimoine-et-nature-a-graves-saint-amant-29941835.php)
+**Source :** Le Monde — Politique · **Publié :** 24/07/2026 03:15 · [Lire l'article](https://www.lemonde.fr/politique/article/2026/07/24/concert-interrompu-de-barbara-butch-l-embarras-de-la-direction-de-lfi-face-a-une-action-locale_6731410_823448.html)
 
-Tout l’été, Charente Libre vous propose de découvrir le département au travers de divers circuits de randonnée. Cette semaine, cap vers Graves-Saint-Amant, avec un parcours de six kilomètres mêlant monuments
-
----
-
-### Pour aider une fillette de 7 ans atteinte d’un deuxième cancer des os, elles vont parcourir 904 km à vélo
-
-**Source :** La Charente Libre · **Publié :** 27/07/2026 08:50 · [Lire l'article](https://www.charentelibre.fr/charente/le-lindois-une-odyssee-de-900-km-pour-aider-lilwenn-et-sa-famille-30031869.php)
-
-Dans le cadre de Parcours espoir, Mélissa Rougier et Virginie Picot vont parcourir 904 km dans l’objectif de collecter des fonds pour venir en aide à Lilwenn, qui combat un deuxième cancer des os.
+Le conseiller d’opposition « insoumis » de Grenoble Allan Brunon est à l’origine de la perturbation d’un concert de la DJ française samedi. Plutôt que de reconnaître un éventuel faux pas, le mouvement s’appuie sur une défense parfois hasardeuse.
 
 ---
 
 ## ⚽ Sport
 
-### L’écrasante domination de Tadej Pogacar et de son équipe sur le Tour de France, une histoire de dynastie : « Personne ne peut rivaliser »
+### Jürgen Klopp officiellement nommé sélectionneur de l’équipe d’Allemagne de football
 
-**Source :** Le Monde — Sport · **Publié :** 27/07/2026 09:04 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/27/l-ecrasante-domination-de-tadej-pogacar-et-son-equipe-sur-le-tour-de-france-une-histoire-de-dynastie-personne-ne-peut-rivaliser_6734045_3242.html)
+**Source :** Le Monde — Sport · **Publié :** 24/07/2026 09:58 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/jurgen-klopp-officiellement-nomme-selectionneur-de-l-equipe-d-allemagne-de-football_6731488_3242.html)
 
-Comme la formation Sky dans les années 2010, l’équipe UAE Team Emirates XRG domine outrageusement le peloton, dans la foulée de son leader slovène, sacré dimanche. Une situation difficile à vivre pour les autres coureurs, même si elle ne durera peut-être pas.
-
----
-
-### Tadej Pogacar, la passe de cinq sur le Tour de France et une perpétuelle quête de défis
-
-**Source :** Le Monde — Sport · **Publié :** 26/07/2026 18:39 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/26/tadej-pogacar-la-passe-de-cinq-sur-le-tour-de-france-et-une-perpetuelle-quete-de-defis_6733469_3242.html)
-
-Le cycliste slovène a remporté la Grande Boucle, dimanche, pour la cinquième fois de sa carrière. Sans concurrent à sa mesure, l’insatiable leader de l’équipe UAE Team Emirates XRG s’est cherché des quêtes secondaires.
+Le technicien de 59 ans a été intronisé, vendredi, à la tête de la Mannschaft. Il succède à Julian Nagelsmann, démissionnaire après l’élimination de l’équipe par le Paraguay, aux tirs au but, en seizièmes de finale de la Coupe du monde 2026.
 
 ---
 
-### Tour de France 2026 : revivez le cinquième sacre de Tadej Pogacar, et la victoire d’étape haletante de Mathieu van der Poel sur les Champs-Elysées
+### Tour de France 2026 : une double dose d’Alpe-d’Huez pour le peloton
 
-**Source :** Le Monde — Sport · **Publié :** 26/07/2026 15:40 · [Lire l'article](https://www.lemonde.fr/sport/live/2026/07/26/en-direct-tour-de-france-suivez-la-vingt-et-unieme-et-derniere-etape-a-paris-raccourcie-a-cause-des-incendies_6733364_3242.html)
+**Source :** Le Monde — Sport · **Publié :** 24/07/2026 07:30 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/tour-de-france-2026-une-double-dose-d-alpe-d-huez-pour-le-peloton_6731468_3242.html)
 
-Le coureur slovène de 27 ans a remporté, dimanche, la Grande Boucle pour la cinquième fois, rejoignant Anquetil, Hinault, Merckx et Indurain au palmarès, au terme d’une ultime étape remportée sur le fil par le coureur néerlandais.
-
----
-
-### Reinhold Messner, la légende d’un alpiniste en treize tableaux
-
-**Source :** Le Monde — Sport · **Publié :** 26/07/2026 15:00 · [Lire l'article](https://www.lemonde.fr/series-d-ete/article/2026/07/26/reinhold-messner-la-legende-d-un-alpiniste-en-treize-tableaux_6733358_3451060.html)
-
-« Reinhold Messner, l’ivresse des sommets » (1/6). L’Italien de 81 ans est considéré comme l’un des plus grands alpinistes du XXe siècle. Il a multiplié les exploits, et aussi les éclats. Mais ce roc d’assurance a sa faille, vertigineuse : la mort de son frère Günther, alors qu’ils gravissaient ensemble un sommet de l’Himalaya en 1970.
+Les coureurs devront affronter les vingt-et-un lacets du col vendredi, dans le final de la 19ᵉ étape… avant de terminer au même endroit le lendemain, lors d’une journée où ils devront escalader trois cols classés hors catégorie.
 
 ---
 
-### Open de Chine de badminton : Toma Junior Popov, premier Français en finale d’un tournoi Super 1000, s’incline
+### Tour de France 2026 : le parcours de la dix-neuvième étape (Gap - l’Alpe-d’Huez)
 
-**Source :** Le Monde — Sport · **Publié :** 26/07/2026 11:57 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/26/premier-francais-qualifie-en-finale-d-un-tournoi-super-1000-equivalent-d-un-grand-chelem-au-badminton-toma-junior-popov-s-incline_6733286_3242.html)
+**Source :** Le Monde — Sport · **Publié :** 24/07/2026 06:00 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/24/tour-de-france-2026-le-parcours-de-la-dix-neuvieme-etape-gap-l-alpe-d-huez_6731462_3242.html)
 
-Le badiste français de 27 ans a perdu, dimanche, en finale de l’Open de Chine contre le Taïwanais Chou Tien-chen (15-21, 21-7, 13-21).
+A deux jours de l’arrivée à Paris, les coureurs se lancent dans une étape courte, mais montagneuse, dont l’ascension finale vers la station iséroise se fera par ses 21 virages mythiques.
+
+---
+
+### Tour de France 2026 : une histoire de maillots, de baroudeurs, mais pas encore de favoris
+
+**Source :** Le Monde — Sport · **Publié :** 23/07/2026 17:56 · [Lire l'article](https://www.lemonde.fr/sport/article/2026/07/23/tour-de-france-2026-une-histoire-de-maillots-de-baroudeurs-mais-pas-encore-de-favoris_6731135_3242.html)
+
+L’Equatorien Richard Carapaz a remporté, jeudi en solitaire, à Orcières-Merlette, une 18ᵉ étape marquée par une bataille pour les tuniques distinctives, à l’exception de la jaune de leader au général, propriété de Tadej Pogacar.
+
+---
+
+### Tour de France : Richard Carapaz s’impose en solitaire à Orcières-Merlette et renoue avec le succès sur la Grande Boucle
+
+**Source :** Le Monde — Sport · **Publié :** 23/07/2026 10:30 · [Lire l'article](https://www.lemonde.fr/sport/live/2026/07/23/en-direct-tour-de-france-suivez-la-dix-huitieme-etape-entre-voiron-et-orcieres-merlette_6730674_3242.html)
+
+Le coureur équatorien, de nouveau à l’attaque pour la première étape du triptyque alpestre de l’édition 2026, a fait craquer Valentin Paret-Peintre dans l’ascension vers Orcières-Merlette (Hautes-Alpes), jeudi, lors de la dix-huitième étape du Tour de France. Tadej Pogacar conserve son maillot jaune.
 
 ---
